@@ -157,45 +157,43 @@
       <text variable="locator"/>
     </group>
   </macro>
-  <citation delimiter-precedes-et-al="always" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" after-collapse-delimiter=", ">
+  <citation delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" collapse="year" after-collapse-delimiter="; ">
     <sort>
       <key macro="author"/>
-      <key macro="year" sort="descending"/>
+      <key macro="year"/>
     </sort>
-    <layout delimiter=", ">
-      <group prefix="(" suffix=")">
-        <choose>
-          <if match="any" type="legislation entry-encyclopedia post-weblog">
-            <choose>
-              <if match="any" variable="title">
-                <text variable="title" font-style="italic" suffix=", "/>
-              </if>
-            </choose>
-          </if>
-          <else>
-            <choose>
-              <if match="any" variable="author editor">
-                <text macro="author-citation" suffix=", "/>
-              </if>
-            </choose>
-          </else>
-        </choose>
-        <choose>
-          <if match="any" variable="issued">
-            <date variable="issued">
-              <date-part name="year"/>
-            </date>
-          </if>
-          <else>
-            <text value="no date"/>
-          </else>
-        </choose>
-        <choose>
-          <if variable="locator">
-            <text macro="cite-locator"/>
-          </if>
-        </choose>
-      </group>
+    <layout delimiter="; " prefix="(" suffix=")">
+      <choose>
+        <if match="any" type="legislation entry-encyclopedia post-weblog">
+          <choose>
+            <if match="any" variable="title">
+              <text variable="title" font-style="italic" suffix=", "/>
+            </if>
+          </choose>
+        </if>
+        <else>
+          <choose>
+            <if match="any" variable="author editor">
+              <text macro="author-citation" suffix=", "/>
+            </if>
+          </choose>
+        </else>
+      </choose>
+      <choose>
+        <if match="any" variable="issued">
+          <date variable="issued">
+            <date-part name="year"/>
+          </date>
+        </if>
+        <else>
+          <text value="no date"/>
+        </else>
+      </choose>
+      <choose>
+        <if variable="locator">
+          <text macro="cite-locator"/>
+        </if>
+      </choose>
     </layout>
   </citation>
   <bibliography et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" entry-spacing="0" hanging-indent="true">

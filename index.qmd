@@ -150,6 +150,10 @@ Ideal:
 
 - Kra et al. (2022a) did blah and then worked on blah (Kra et al., 2022b; 2023).
 
+Note:
+
+- Sadly, CSL can only do commas between years for the same author. Fortunately, this is only a minor shortcoming.
+
 ### Direct Citations
 
 Manchester Harvard Guidance:
