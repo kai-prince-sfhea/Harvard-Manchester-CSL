@@ -36,7 +36,7 @@ You can see the render output of the CSL in index.html within the _site folder.
   - [x] Get citation locators (e.g., page numbers) working.
   - [x] Get citation prefixes and suffixes working.
   - [x] Merge single citation of multiple authors supporting the same argument with year-author ordering.
-  - [ ] Get disambiguation of multiple authors with the same surname working.
+  - [x] Get disambiguation of multiple authors with the same surname working.
   - [ ] Have citations with no author use the title of the work italicised.
   - [ ] Get no parenthesis citations working (this may not be possible).
 - [ ] Get the reference citations working in Quarto.

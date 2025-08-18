@@ -45,17 +45,17 @@
     <choose>
       <if match="all" variable="author editor">
         <names variable="author" suffix=" ">
-          <name form="short" delimiter="," suffix=" " and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize-with=". " name-as-sort-order="all"/>
+          <name form="short" delimiter="," suffix=" " and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize-with=". "/>
         </names>
       </if>
       <else-if match="any" variable="editor">
         <names variable="editor">
-          <name form="short" and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize-with=". " name-as-sort-order="all"/>
+          <name form="short" and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize-with=". "/>
         </names>
       </else-if>
       <else>
         <names variable="author editor guest">
-          <name form="short" and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize-with=". " name-as-sort-order="all"/>
+          <name form="short" and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize-with=". "/>
         </names>
       </else>
     </choose>
@@ -157,7 +157,7 @@
       <text variable="locator"/>
     </group>
   </macro>
-  <citation delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" collapse="year" after-collapse-delimiter="; ">
+  <citation delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-givenname="true" givenname-disambiguation-rule="all-names" collapse="year" after-collapse-delimiter=", ">
     <sort>
       <key macro="author"/>
       <key macro="year"/>
