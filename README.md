@@ -33,7 +33,7 @@ You can see the render output of the CSL in index.html within the _site folder.
 
 - [x] Get the current draft CSL created by the Library Student Team.
 - [ ] Get the in-text citations working in Quarto.
-  - [ ] Get citation locators (e.g., page numbers) working.
+  - [x] Get citation locators (e.g., page numbers) working.
   - [ ] Get citation prefixes and suffixes working.
   - [ ] Merge single citation of multiple authors supporting the same argument with year-author ordering.
   - [ ] Get disambiguation of multiple authors with the same surname working.
