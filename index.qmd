@@ -1,0 +1,315 @@
+---
+title: "Harvard_Manchester_CSL"
+---
+
+## Citation Syntax
+
+### Authors
+
+#### No Author
+
+Manchester Harvard Guidance:
+
+- If you cannot identify the author of a document use the title of the work italicised. 
+
+Input:
+
+- ```@na2025 or [@na2025]```
+
+Output:
+
+- @na2025 or [@na2025]
+
+Ideal:
+
+- *Some Book* (2025) or (*Some Book*, 2025)
+
+#### One Author
+
+Manchester Harvard Guidance:
+
+- the surname of the author and the year of publication are stated as below.
+
+Input:
+
+- ```@bergelson_1996 or [@bergelson_1996]```
+
+Output:
+
+- @bergelson_1996 or [@bergelson_1996]
+
+Ideal:
+
+- Bergelson (1996) or (Bergelson, 1996)
+
+#### Two Authors
+
+Manchester Harvard Guidance:
+
+- the surnames of the authors, separated by ‘and’, and the year of publication are stated as below. 
+
+Input:
+
+- ```@Bekka2000GroupActionDynamics or [@Bekka2000GroupActionDynamics]```
+
+Output:
+
+- @Bekka2000GroupActionDynamics or [@Bekka2000GroupActionDynamics]
+
+Ideal:
+
+- Bekka and Mayer (2000) or (Bekka and Mayer, 2000)
+
+#### Three Authors
+
+Manchester Harvard Guidance:
+
+- first author to penultimate author separated by commas. Penultimate author and last author separated by the word 'and'.
+
+Input:
+
+- ```@Moreira_2019 or [@Moreira_2019]```
+
+Output:
+
+- @Moreira_2019 or [@Moreira_2019]
+
+Ideal:
+
+- Moreira, Richter and Robertson (2019) or (Moreira, Richter and Robertson, 2019)
+
+#### Four or more Authors
+
+Manchester Harvard Guidance:
+
+- the surname of the first author, followed by ‘et al.’, and the year of publication are stated as below. 
+
+Input:
+
+- ```@kra2023problems or [@kra2023problems]```
+
+Output:
+
+- @kra2023problems or [@kra2023problems]
+
+Ideal:
+
+- Kra et al. (2023) or (Kra et al., 2023)
+
+#### Corporate Author
+
+Manchester Harvard Guidance:
+
+- Spell out the full title of the corporation or organisation or use an acronym or Initialism if it is recognised as this.
+
+Input:
+
+- ```@bbc2025 or [@bbc2025]```
+
+Output:
+
+- @bbc2025 or [@bbc2025]
+
+Ideal:
+
+- BBC (2025) or (BBC, 2025)
+
+#### No Date
+
+Manchester Harvard Guidance:
+
+- The phrase “no date” should be used if you cannot identify a date of publication.
+
+Input:
+
+- ```@booknd or [@booknd]```
+
+Output:
+
+- @booknd or [@booknd]
+
+Ideal:
+
+- Smith (no date) or (Smith, no date)
+
+#### Multiple Works by the same Author
+
+Manchester Harvard Guidance:
+
+- If there are several works by one author (published in the same year) included in your Reference list entry, they should be differentiated by adding a lower case letter after the date. When referring to two or more sources by the same author in different years, you don’t need to repeat the author's surname in the citation. Include the surname and the oldest year first, then separate the rest with by semicolons (;) in chronological order starting with the oldest first
+
+Input:
+
+- ```@kra2022infinite did blah and then worked on blah [@kra2022proof; @kra2023problems].```
+
+Output:
+
+- @kra2022infinite did blah and then worked on blah [@kra2022proof; @kra2023problems].
+
+Ideal:
+
+- Kra et al. (2022a) did blah and then worked on blah (Kra et al., 2022b; 2023).
+
+### Direct Citations
+
+Manchester Harvard Guidance:
+
+- If the author’s name forms a natural part of your sentence, then you just need to note the relevant year (within parentheses) after the author(s) name.
+
+#### Standard Example
+
+Input:
+
+- ```@bergelson_1996 says blah.```
+
+Output:
+
+- @bergelson_1996 says blah.
+
+Ideal:
+
+- Bergelson (1996) says blah.
+
+#### Standard Example with Locator
+
+Input:
+
+- ```@bergelson_1996 [pp. 2] says blah.```
+
+Output:
+
+- @bergelson_1996 [pp. 2] says blah.
+
+Ideal:
+
+- Bergelson (1996, p. 2) says blah.
+
+#### Date Only
+
+Input:
+
+- ```Bergelson says blah [-@bergelson_1996].```
+
+Output:
+
+- Bergelson says blah [-@bergelson_1996].
+
+Ideal:
+
+- Bergelson says blah (1996).
+
+#### No Parentheses
+
+Input:
+
+- ```Bergelson -@bergelson_1996 says Blah.```
+
+Output:
+
+- Bergelson -@bergelson_1996 says Blah.
+
+Ideal:
+
+- Bergelson 1996 says blah.
+
+### Indirect Citations
+
+Manchester Harvard Guidance:
+
+- If you do not mention the author’s name within your text, then place both the name and year in parentheses, at the end of the sentence.
+
+#### Standard Example
+
+Input:
+
+- ```Blah Blah [@bergelson_1996]. Blah Blah [@kra2023problems]```
+
+Output:
+
+- Blah Blah [@bergelson_1996]. Blah Blah [@kra2023problems]
+
+Ideal:
+
+- Blah Blah (Bergelson, 1996). Blah Blah (Kra et al., 2023)
+
+#### Standard Example with Locator
+
+Input:
+
+- ```Blah Blah [@bergelson_1996, pp. 2]. Blah Blah [@kra2023problems, Section 1]```
+
+Output:
+
+- Blah Blah [@bergelson_1996, pp. 2]. Blah Blah [@kra2023problems, Section 1]
+
+Ideal:
+
+- Blah Blah (Bergelson, 1996, p. 2). Blah Blah (Kra et al., 2023, Section 1)
+
+#### Authors supporting the same argument
+
+Manchester Harvard Guidance:
+
+- Cite both names and separate with a semi-colon. List citations in chronological order (earliest date first) of year before surname, if the the citations are in the same year, then order in date then alphabetical order.
+
+Input:
+
+- ```Blah Blah [@bergelson_1996; @kra2023problems]```
+
+Output:
+
+- Blah Blah [@bergelson_1996; @kra2023problems]
+
+Ideal:
+
+- Blah Blah (Bergelson, 1996; Kra et al., 2023)
+
+#### Authors supporting the same argument with Prefixes, Locators and Suffixes
+
+Input:
+
+- ```Blah Blah [see @bergelson_1996, pp. 2; and @kra2023problems, Theorem 2.2]```
+
+Output:
+
+- Blah Blah [see @bergelson_1996, pp. 2; and @kra2023problems, Theorem 2.2]
+
+Ideal:
+
+- Blah Blah (see Bergelson, 1996, p. 2; and Kra et al., 2023, Theorem 2.2)
+
+#### Authors with the same surname
+
+Manchester Harvard Guidance:
+
+- If two or more authors have the same surname then you need to provide more information to identify the source from which a quotation is taken. You should provide both author’s first initials (or even the authors' full name if different authors share initials) in your citation.
+
+Input:
+
+- ```Blah Blah [@prince2024; @prince2022; @prince2026]```
+
+Output:
+
+- Blah Blah [@prince2024; @prince2022; @prince2026]
+
+Ideal:
+
+- Blah Blah (Kai Prince, 2022; Kira Prince, 2026; L. Prince, 2024)
+
+#### Citing sources from another source
+
+Manchester Harvard Guidance:
+
+- When you wish to refer to a source that is cited or quoted in another authors work then you need to acknowledge this. This is known as indirect or secondary referencing. Use the term 'cited in' or 'quoted in' within your work. 
+
+Input:
+
+- ```Blah Blah [Moreira, Richter and Robertson, 2019 cited in @kra2023problems]```
+
+Output:
+
+- Blah Blah [Moreira, Richter and Robertson, 2019 cited in @kra2023problems]
+
+Ideal:
+
+- Blah Blah (Moreira, Richter and Robertson, 2019 cited in Kra et al., 2023)

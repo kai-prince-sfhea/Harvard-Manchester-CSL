@@ -1,0 +1,10 @@
+project:
+  title: "Harvard_Manchester_CSL"
+  type: website
+
+format:
+  html: default
+
+csl: harvard-manchester.csl
+bibliography: references.bib
+link-citations: false
