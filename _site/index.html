@@ -87,35 +87,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -161,15 +132,15 @@ window.Quarto = {
 </ul>
 <p>Input:</p>
 <ul>
-<li><code>@na2025 or [@na2025]</code></li>
+<li><code>@anderton2016andertonBaronets or [@anderton2016andertonBaronets]</code></li>
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="na2025">(2025)</span> or <span class="citation" data-cites="na2025">(2025)</span></li>
+<li><span class="citation" data-cites="anderton2016andertonBaronets">(<a href="#ref-anderton2016andertonBaronets" role="doc-biblioref"><em>Anderton baronets</em>, 2016</a>)</span> or <span class="citation" data-cites="anderton2016andertonBaronets">(<a href="#ref-anderton2016andertonBaronets" role="doc-biblioref"><em>Anderton baronets</em>, 2016</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
-<li><em>Some Book</em> (2025) or (<em>Some Book</em>, 2025)</li>
+<li><em>Anderton baronets</em> (2016) or (<em>Anderton baronets</em>, 2016)</li>
 </ul>
 </section>
 <section id="one-author" class="level4">
@@ -184,7 +155,7 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="bergelson_1996">Bergelson (1996)</span> or <span class="citation" data-cites="bergelson_1996">(Bergelson, 1996)</span></li>
+<li><span class="citation" data-cites="bergelson_1996">Bergelson (<a href="#ref-bergelson_1996" role="doc-biblioref">1996</a>)</span> or <span class="citation" data-cites="bergelson_1996">(<a href="#ref-bergelson_1996" role="doc-biblioref">Bergelson, 1996</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -203,7 +174,7 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="Bekka2000GroupActionDynamics">Bekka and Mayer (2000)</span> or <span class="citation" data-cites="Bekka2000GroupActionDynamics">(Bekka and Mayer, 2000)</span></li>
+<li><span class="citation" data-cites="Bekka2000GroupActionDynamics">Bekka and Mayer (<a href="#ref-Bekka2000GroupActionDynamics" role="doc-biblioref">2000</a>)</span> or <span class="citation" data-cites="Bekka2000GroupActionDynamics">(<a href="#ref-Bekka2000GroupActionDynamics" role="doc-biblioref">Bekka and Mayer, 2000</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -222,7 +193,7 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="Moreira_2019">Moreira, F. Richter and Robertson (2019)</span> or <span class="citation" data-cites="Moreira_2019">(Moreira, F. Richter and Robertson, 2019)</span></li>
+<li><span class="citation" data-cites="Moreira_2019">Moreira, Richter and Robertson (<a href="#ref-Moreira_2019" role="doc-biblioref">2019</a>)</span> or <span class="citation" data-cites="Moreira_2019">(<a href="#ref-Moreira_2019" role="doc-biblioref">Moreira, Richter and Robertson, 2019</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -241,7 +212,7 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="kra2023problems">Kra et al. (2023)</span> or <span class="citation" data-cites="kra2023problems">(Kra et al., 2023)</span></li>
+<li><span class="citation" data-cites="kra2023problems">Kra et al. (<a href="#ref-kra2023problems" role="doc-biblioref">2023</a>)</span> or <span class="citation" data-cites="kra2023problems">(<a href="#ref-kra2023problems" role="doc-biblioref">Kra et al., 2023</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -256,15 +227,15 @@ window.Quarto = {
 </ul>
 <p>Input:</p>
 <ul>
-<li><code>@bbc2025 or [@bbc2025]</code></li>
+<li><code>@bbcWorldService2019spaceStations or [@bbcWorldService2019spaceStations]</code></li>
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="bbc2025">BBC (2025)</span> or <span class="citation" data-cites="bbc2025">(BBC, 2025)</span></li>
+<li><span class="citation" data-cites="bbcWorldService2019spaceStations">BBC World Service (<a href="#ref-bbcWorldService2019spaceStations" role="doc-biblioref">2019</a>)</span> or <span class="citation" data-cites="bbcWorldService2019spaceStations">(<a href="#ref-bbcWorldService2019spaceStations" role="doc-biblioref">BBC World Service, 2019</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
-<li>BBC (2025) or (BBC, 2025)</li>
+<li>BBC World Service (2019) or (BBC World Service, 2019)</li>
 </ul>
 </section>
 <section id="no-date" class="level4">
@@ -279,7 +250,7 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="booknd">Smith (no date)</span> or <span class="citation" data-cites="booknd">(Smith, no date)</span></li>
+<li><span class="citation" data-cites="booknd">J. Smith (<a href="#ref-booknd" role="doc-biblioref">no date</a>)</span> or <span class="citation" data-cites="booknd">(<a href="#ref-booknd" role="doc-biblioref">J. Smith, no date</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -294,15 +265,15 @@ window.Quarto = {
 </ul>
 <p>Input:</p>
 <ul>
-<li><code>@kra2022infinite did blah and then worked on blah [@kra2022proof; @kra2023problems].</code></li>
+<li><code>@kra2022infinite did blah and then worked on blah [-@kra2022proof; -@kra2023problems].</code></li>
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="kra2022infinite">Kra et al. (2022a)</span> did blah and then worked on blah <span class="citation" data-cites="kra2022proof kra2023problems">(Kra et al., 2022b, 2023)</span>.</li>
+<li><span class="citation" data-cites="kra2022infinite">Kra et al. (<a href="#ref-kra2022infinite" role="doc-biblioref">2022a</a>)</span> did blah and then worked on blah <span class="citation" data-cites="kra2022proof kra2023problems">(<a href="#ref-kra2022proof" role="doc-biblioref">2022b</a>, <a href="#ref-kra2023problems" role="doc-biblioref">2023</a>)</span>.</li>
 </ul>
 <p>Ideal:</p>
 <ul>
-<li>Kra et al.&nbsp;(2022a) did blah and then worked on blah (Kra et al., 2022b; 2023).</li>
+<li>Kra et al.&nbsp;(2022a) did blah and then worked on blah (2022b; 2023).</li>
 </ul>
 <p>Note:</p>
 <ul>
@@ -324,7 +295,7 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="bergelson_1996">Bergelson (1996)</span> says blah.</li>
+<li><span class="citation" data-cites="bergelson_1996">Bergelson (<a href="#ref-bergelson_1996" role="doc-biblioref">1996</a>)</span> says blah.</li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -335,11 +306,11 @@ window.Quarto = {
 <h4 class="anchored" data-anchor-id="standard-example-with-locator">Standard Example with Locator</h4>
 <p>Input:</p>
 <ul>
-<li><code>@bergelson_1996 [pp. 2] says blah.</code></li>
+<li><code>@bergelson_1996 [p. 2] says blah.</code></li>
 </ul>
 <p>Output:</p>
 <ul>
-<li><span class="citation" data-cites="bergelson_1996">Bergelson (1996, p. 2)</span> says blah.</li>
+<li><span class="citation" data-cites="bergelson_1996">Bergelson (<a href="#ref-bergelson_1996" role="doc-biblioref">1996, p. 2</a>)</span> says blah.</li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -354,26 +325,11 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li>Bergelson says blah <span class="citation" data-cites="bergelson_1996">(1996)</span>.</li>
+<li>Bergelson says blah <span class="citation" data-cites="bergelson_1996">(<a href="#ref-bergelson_1996" role="doc-biblioref">1996</a>)</span>.</li>
 </ul>
 <p>Ideal:</p>
 <ul>
 <li>Bergelson says blah (1996).</li>
-</ul>
-</section>
-<section id="no-parentheses" class="level4">
-<h4 class="anchored" data-anchor-id="no-parentheses">No Parentheses</h4>
-<p>Input:</p>
-<ul>
-<li><code>Bergelson -@bergelson_1996 says Blah.</code></li>
-</ul>
-<p>Output:</p>
-<ul>
-<li>Bergelson <span class="citation" data-cites="bergelson_1996">(1996)</span> says Blah.</li>
-</ul>
-<p>Ideal:</p>
-<ul>
-<li>Bergelson 1996 says blah.</li>
 </ul>
 </section>
 </section>
@@ -391,7 +347,7 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li>Blah Blah <span class="citation" data-cites="bergelson_1996">(Bergelson, 1996)</span>. Blah Blah <span class="citation" data-cites="kra2023problems">(Kra et al., 2023)</span></li>
+<li>Blah Blah <span class="citation" data-cites="bergelson_1996">(<a href="#ref-bergelson_1996" role="doc-biblioref">Bergelson, 1996</a>)</span>. Blah Blah <span class="citation" data-cites="kra2023problems">(<a href="#ref-kra2023problems" role="doc-biblioref">Kra et al., 2023</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -402,11 +358,11 @@ window.Quarto = {
 <h4 class="anchored" data-anchor-id="standard-example-with-locator-1">Standard Example with Locator</h4>
 <p>Input:</p>
 <ul>
-<li><code>Blah Blah [@bergelson_1996, pp. 2]. Blah Blah [@kra2023problems, Section 1]</code></li>
+<li><code>Blah Blah [@bergelson_1996, p. 2]. Blah Blah [@kra2023problems, Section 1]</code></li>
 </ul>
 <p>Output:</p>
 <ul>
-<li>Blah Blah <span class="citation" data-cites="bergelson_1996">(Bergelson, 1996, p. 2)</span>. Blah Blah <span class="citation" data-cites="kra2023problems">(Kra et al., 2023, sec. 1)</span></li>
+<li>Blah Blah <span class="citation" data-cites="bergelson_1996">(<a href="#ref-bergelson_1996" role="doc-biblioref">Bergelson, 1996, p. 2</a>)</span>. Blah Blah <span class="citation" data-cites="kra2023problems">(<a href="#ref-kra2023problems" role="doc-biblioref">Kra et al., 2023, sec. 1</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -425,7 +381,7 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li>Blah Blah <span class="citation" data-cites="bergelson_1996 kra2023problems">(Bergelson, 1996, Kra et al., 2023)</span></li>
+<li>Blah Blah <span class="citation" data-cites="bergelson_1996 kra2023problems">(<a href="#ref-bergelson_1996" role="doc-biblioref">Bergelson, 1996</a>, <a href="#ref-kra2023problems" role="doc-biblioref">Kra et al., 2023</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -436,11 +392,11 @@ window.Quarto = {
 <h4 class="anchored" data-anchor-id="authors-supporting-the-same-argument-with-prefixes-locators-and-suffixes">Authors supporting the same argument with Prefixes, Locators and Suffixes</h4>
 <p>Input:</p>
 <ul>
-<li><code>Blah Blah [see @bergelson_1996, pp. 2; and @kra2023problems, Theorem 2.2]</code></li>
+<li><code>Blah Blah [see @bergelson_1996, p. 2; and @kra2023problems, Theorem 2.2]</code></li>
 </ul>
 <p>Output:</p>
 <ul>
-<li>Blah Blah <span class="citation" data-cites="bergelson_1996 kra2023problems">(see Bergelson, 1996, p. 2, and Kra et al., 2023, Theorem 2.2)</span></li>
+<li>Blah Blah <span class="citation" data-cites="bergelson_1996 kra2023problems">(see <a href="#ref-bergelson_1996" role="doc-biblioref">Bergelson, 1996, p. 2</a>, and <a href="#ref-kra2023problems" role="doc-biblioref">Kra et al., 2023</a>, Theorem 2.2)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -459,7 +415,7 @@ window.Quarto = {
 </ul>
 <p>Output:</p>
 <ul>
-<li>Blah Blah <span class="citation" data-cites="prince2024 prince2022 prince2026">(Kai Prince, 2022, Kira Prince, 2026, L. Prince, 2024)</span></li>
+<li>Blah Blah <span class="citation" data-cites="prince2024 prince2022 prince2026">(<a href="#ref-prince2022" role="doc-biblioref">Kai Prince, 2022</a>, <a href="#ref-prince2026" role="doc-biblioref">Kira Prince, 2026</a>, <a href="#ref-prince2024" role="doc-biblioref">L. Prince, 2024</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
@@ -474,15 +430,757 @@ window.Quarto = {
 </ul>
 <p>Input:</p>
 <ul>
-<li><code>Blah Blah [Moreira, Richter and Robertson, 2019 cited in @kra2023problems]</code></li>
+<li><code>Blah Blah [Moreira, Richter and Robertson, 2019, cited in @kra2023problems]</code></li>
 </ul>
 <p>Output:</p>
 <ul>
-<li>Blah Blah <span class="citation" data-cites="kra2023problems">(Moreira, Richter and Robertson, 2019 cited in Kra et al., 2023)</span></li>
+<li>Blah Blah <span class="citation" data-cites="kra2023problems">(Moreira, Richter and Robertson, 2019, cited in <a href="#ref-kra2023problems" role="doc-biblioref">Kra et al., 2023</a>)</span></li>
 </ul>
 <p>Ideal:</p>
 <ul>
-<li>Blah Blah (Moreira, Richter and Robertson, 2019 cited in Kra et al., 2023)</li>
+<li>Blah Blah (Moreira, Richter and Robertson, 2019, cited in Kra et al., 2023)</li>
+</ul>
+</section>
+</section>
+<section id="other-in-text-citation-rules" class="level3">
+<h3 class="anchored" data-anchor-id="other-in-text-citation-rules">Other In-Text Citation Rules</h3>
+<section id="short-quotations" class="level4">
+<h4 class="anchored" data-anchor-id="short-quotations">Short Quotations</h4>
+<p>Any quotations used should be relevant to the argument you are making. Short quotations (4 or fewer lines of prose or 3 of verse) can be set in quotation marks and included within the body of the text.</p>
+<p>Enclose the quotation within single quotation marks, and then provide the author and specific page citation (in the case of verse, provide line numbers) in the text, and include a complete reference in the reference list. Punctuation marks such as commas, and semi-colons should appear after the parenthetical citation. Question marks and exclamation should appear within the quotation marks if they are a part of the quoted passage, but after the parenthetical citation if they are a part of your text.</p>
+</section>
+<section id="long-quotations" class="level4">
+<h4 class="anchored" data-anchor-id="long-quotations">Long Quotations</h4>
+<p>Longer quotations need to be entered as a separate paragraph and indented from the main text. You do not need to use quotation marks.</p>
+</section>
+<section id="alterations-omissions-emphasis" class="level4">
+<h4 class="anchored" data-anchor-id="alterations-omissions-emphasis">Alterations, omissions, emphasis</h4>
+<ul>
+<li><p>To omit part of a quotation use an ellipsis (…).</p></li>
+<li><p>You can insert your own words into the quotation by putting them in square brackets.</p></li>
+<li><p>If the original quotation contains errors (e.g.&nbsp;a spelling mistake) do not correct it. Instead point out the errors by writing [sic],</p>
+<ul>
+<li>The Latin adverb sic (‘thus’, ‘just as’; in full: sic erat scriptum, ‘thus was it written’)</li>
+</ul></li>
+<li><p>Be consistent, you can use double or single quotations marks within your work, we suggest…</p>
+<ul>
+<li>Use single quotation marks (‘…’) to indicate direct quotations and the definition of words.</li>
+<li>Double quotation marks (“…”) are used for a quote within a quote.</li>
+</ul></li>
+</ul>
+</section>
+<section id="page-numbers-and-other-locators" class="level4">
+<h4 class="anchored" data-anchor-id="page-numbers-and-other-locators">Page numbers and other locators</h4>
+<p>Page numbers are only required in the reference list for chapters in books, and periodical (journal/magazine/newspaper) articles.</p>
+<p>The abbreviation p.&nbsp;is used for single pages and pp.&nbsp;for more than one.</p>
+<p>Note that page numbers are not elided (for example, don’t use pp.&nbsp;90–9)</p>
+<p>If the page numbers are in Roman numerals, do not include p.&nbsp;before them.</p>
+</section>
+<section id="translations" class="level4">
+<h4 class="anchored" data-anchor-id="translations">Translations</h4>
+<ul>
+<li>Narrative citation uses original author; translator acknowledged in reference list (Translated by Surname, Initial.). In-text remains (Original Author, Year).</li>
+</ul>
+</section>
+<section id="non-roman-scripts" class="level4">
+<h4 class="anchored" data-anchor-id="non-roman-scripts">Non-Roman scripts</h4>
+<ul>
+<li>Provide transliterated author and title; optionally include original script in brackets in the reference list. In-text cite transliteration consistently.</li>
+</ul>
+</section>
+<section id="self-citation-students-own-unpublished-work" class="level4">
+<h4 class="anchored" data-anchor-id="self-citation-students-own-unpublished-work">Self-citation (student’s own unpublished work)</h4>
+<p>Required elements:</p>
+<ul>
+<li><p>Student surname.</p></li>
+<li><p>Year of submission in parentheses followed by full stop.</p></li>
+<li><p>Title of the essay/assignment, in single quotation marks</p></li>
+<li><p>Module code:module title , in italics.</p></li>
+<li><p>Institution.</p></li>
+<li><p>“Unpublished essay/assignment.”</p></li>
+</ul>
+</section>
+<section id="personal-communications-anonymised-interviews" class="level4">
+<h4 class="anchored" data-anchor-id="personal-communications-anonymised-interviews">Personal communications / anonymised interviews</h4>
+<p>Anonymised sources are listed as Participant/Client/Patient A, B, C etc. and, in the referencing list, presented in [square brackets].</p>
+</section>
+</section>
+</section>
+<section id="reference-list" class="level2">
+<h2 class="anchored" data-anchor-id="reference-list">Reference List</h2>
+<section id="manchester-harvard-guidance" class="level3">
+<h3 class="anchored" data-anchor-id="manchester-harvard-guidance">Manchester Harvard Guidance</h3>
+<section id="authors-editors-and-translators" class="level4">
+<h4 class="anchored" data-anchor-id="authors-editors-and-translators">Authors, Editors and Translators</h4>
+<p>Author details: surname followed by a comma followed by initial(s) followed by a full stop.</p>
+<ul>
+<li><p>If two or more authors have the same surname then you need to provide more information to identify the source from which a quotation is taken. You should provide both author’s first initials (or even the authors’ full name if different authors share initials) in your citation.</p></li>
+<li><p>For social media sources, include the author’s full name (or names) if available or use the username or screen name.</p></li>
+<li><p>No author: If you cannot identify the author of a document use the title of the work italicised.</p></li>
+<li><p>Two authors: authors separated by the word ‘and’.</p></li>
+<li><p>Three authors: first author to penultimate author separated by commas. Penultimate author and last author separated by the word and.</p></li>
+<li><p>Four or more authors: first author followed by ‘et al’.</p></li>
+</ul>
+<p>Editor(s) no author(s): same procedure as with an author but include (ed.) or (eds.) after the names.</p>
+<ul>
+<li><p>Author of a chapter within an edited text: provide the full bibliographic details in your works cited list.</p></li>
+<li><p>Author(s) and editor(s): use the procedure as if it were an authored work and include the term “Edited by” followed by the editor(s) names spelled out in “Initial. Surname” format.</p></li>
+</ul>
+<p>Translators: “Translated by” before names (“surname, initial.” format).</p>
+</section>
+<section id="year" class="level4">
+<h4 class="anchored" data-anchor-id="year">Year</h4>
+<ul>
+<li><p>Year in parentheses followed by a period; add lowercase letter suffixes for same-author same-year sets.</p></li>
+<li><p>Use “no date” for undated sources.</p></li>
+</ul>
+</section>
+<section id="title" class="level4">
+<h4 class="anchored" data-anchor-id="title">Title</h4>
+<p>Title casing: sentence case (first word and proper nouns) for article, chapter, report titles; italicise standalone works (books, reports, theses, standards, acts, webpages, podcasts, software, datasets where appropriate). Chapter / article titles in single quotation marks.</p>
+<p>Sub-titles: If a sub-title is provided, a colon follows the title. Only proper nouns should be capitalized. The sub-title is followed by a full stop.</p>
+</section>
+<section id="issue-information" class="level4">
+<h4 class="anchored" data-anchor-id="issue-information">Issue information</h4>
+<p>Volume/Part (when available) for journal articles.</p>
+</section>
+<section id="edition" class="level4">
+<h4 class="anchored" data-anchor-id="edition">Edition</h4>
+<p>Ordinal + ‘edn.’ when not first edition. Place after title (before publisher) for books.</p>
+</section>
+<section id="publication-location-and-publisher" class="level4">
+<h4 class="anchored" data-anchor-id="publication-location-and-publisher">Publication Location and Publisher</h4>
+<p>Publication location: For books, include the town or city and state (if applicable) where the book was published. Include country if there is a possible confusion with the UK. For academic journals, this is not necessary. This is followed by a full stop.</p>
+<p>Publisher: For books, include the name of the publisher. For academic journals, include the journal’s name. Followed by a full stop.</p>
+</section>
+<section id="page-ranges" class="level4">
+<h4 class="anchored" data-anchor-id="page-ranges">Page ranges</h4>
+<p>If there is a page range, the preceding full-stop becomes a comma.</p>
+<p>Use en dash; prefix ‘pp.’ except single page ‘p.’.</p>
+<p>Page numbers are only required in the reference list for chapters in books, and periodical (journal/magazine/newspaper) articles.</p>
+<p>Followed by a full stop.</p>
+</section>
+<section id="digital-object-identifier-doi-or-uniform-resource-locator-url" class="level4">
+<h4 class="anchored" data-anchor-id="digital-object-identifier-doi-or-uniform-resource-locator-url">Digital Object Identifier (DOI) or Uniform Resource Locator (URL)</h4>
+<p>DOI preferred over URL: do not add ‘Available at:’ before DOI and follow with a full stop.</p>
+<p>When only a URL is provided: Access dates are required when a URL is used. and the format should be ‘Available at: URL (Accessed: Access Date).’</p>
+</section>
+<section id="format" class="level4">
+<h4 class="anchored" data-anchor-id="format">Format</h4>
+<p>If a format is required or for electronic sources that may not fit into standard categories (e.g., podcasts, videos, online presentations), format terms in square brackets (e.g <a href="#podcast">Podcast</a> [Record] [Illustration] [Microfiche] [Computer Programme] <a href="#systematic-review">Systematic Review</a> [MP3] [video file] [PowerPoint presentation]).</p>
+</section>
+<section id="database-or-repository" class="level4">
+<h4 class="anchored" data-anchor-id="database-or-repository">Database or Repository</h4>
+<p>If the source is accessed through a specific database or digital repository, you may include this information.</p>
+</section>
+<section id="source-types" class="level4">
+<h4 class="anchored" data-anchor-id="source-types">Source Types</h4>
+<p>The University of Manchester Harvard (Manchester) official source type categories (A–Z) extracted August 2025:</p>
+<ul>
+<li>Acts of Parliament
+<ul>
+<li>EndNote reference type: Statute</li>
+<li>Active EndNote fields: Country, Name of Act, Year, International Source, Sections, Source, URL or DOI, Access Date</li>
+</ul></li>
+<li>Blog
+<ul>
+<li>EndNote reference type: Blog</li>
+<li>Active EndNote fields: Author, Year, Title of Entry, Title of WebLog, Last Update Date, URL or DOI, Access Date</li>
+</ul></li>
+<li>Books
+<ul>
+<li>EndNote reference type: Book</li>
+<li>Active EndNote fields: Author, Year, Title, Series Title, Translated by, Translator, Edition, Number of Volumes, Place Published, Publisher, Pages, Reprint, Reprint Edition</li>
+</ul></li>
+<li>Books (translations)
+<ul>
+<li>EndNote reference type: Book</li>
+<li>Active EndNote fields: Author, Year, Title, Series Title, Translated by, Translator, Edition, Number of Volumes, Place Published, Publisher, Pages, Reprint, Reprint Edition</li>
+</ul></li>
+<li>British Standard
+<ul>
+<li>EndNote reference type: Standard</li>
+<li>Active EndNote fields: Institution, Year, Rule Number, Title, Place Published, Publisher, Database Provider, Type of Work, URL or DOI, Access Date</li>
+</ul></li>
+<li>Chapter in an edited book
+<ul>
+<li>EndNote reference type: Book section</li>
+<li>Active EndNote fields: Author, Year, Title, Editor, Book Title, Series Volume, Series Title, Edition, Place Published, Publisher, Pages</li>
+</ul></li>
+<li>Company, financial and medical databases
+<ul>
+<li>EndNote reference type: Aggregated Database</li>
+<li>Active EndNote fields: Author, Year, Name of Database, Database Provider, URL, Date Accessed</li>
+</ul></li>
+<li>Company annual reports
+<ul>
+<li>EndNote reference type: Report</li>
+<li>Active EndNote fields: Author, Year, Title, Type, Document Number, Place Published, Institution, Database Provider, Pages, URL or DOI, Access Date</li>
+</ul></li>
+<li>Conference proceedings
+<ul>
+<li>EndNote reference type: Conference Proceedings</li>
+<li>Active EndNote fields: Author, Year of Conference, Title, Editor, Conference Name, Conference Location, Date Year of Conference, Place Published, Publisher, Pages, URL or DOI, Access Date</li>
+</ul></li>
+<li>Discography (music)
+<ul>
+<li>EndNote reference type: Music</li>
+<li>Active EndNote fields: Composer, Year, Title, Album Title, Format of Music, Place Published, Publisher, URL or DOI, Access Date</li>
+</ul></li>
+<li>E-books
+<ul>
+<li>EndNote reference type: Electronic Book</li>
+<li>Active EndNote fields: Author, Year, Title, Secondary Title, Edition, Place Published, Publisher, Database Provider, URL or DOI, Access Date</li>
+</ul></li>
+<li>Edited Book
+<ul>
+<li>EndNote reference type: Edited Book</li>
+<li>Active EndNote fields: Editor, Year, Title, Edition, Place Published, Publisher</li>
+</ul></li>
+<li>Film, TV show or broadcast
+<ul>
+<li>EndNote reference type: Film or Broadcast</li>
+<li>Active EndNote fields: Title, Year Released, Director, Format, Country, Distributor</li>
+</ul></li>
+<li>Grant/Funding Proposal
+<ul>
+<li>EndNote reference type: Grant</li>
+<li>Active EndNote fields: Investigators, Year, Title of Grant, Sponsoring Agency. Duration of Grant, Pages, URL or DOI, Access Date</li>
+</ul></li>
+<li>Government/Corporate publications (e.g.&nbsp;guidelines)
+<ul>
+<li>EndNote reference type: Government Document</li>
+<li>Active EndNote fields: Author, Government Body, Department, Year, Title, Place Published, Publisher, Report Number, URL or DOI, Access Date</li>
+</ul></li>
+<li>Ibid (guidance / generally not used in Manchester Harvard)</li>
+<li>Illustrations / Images / Tables
+<ul>
+<li>EndNote reference type: Figure</li>
+<li>Active EndNote fields: Created By, Year, Title, Image Source Program, URL or DOI, Access Date</li>
+</ul></li>
+<li>Interviews (Anonymised medical)
+<ul>
+<li>EndNote reference type: Interview</li>
+<li>Active EndNote fields: Interviewee, Year, Title, Interviewee, Interviewer for Program, Date, Format, Pages</li>
+</ul></li>
+<li>Interviews (newspaper)
+<ul>
+<li>EndNote reference type: Interview</li>
+<li>Active EndNote fields: Interviewee, Year, Title, Interviewee, Interviewer for Program, Date, Format, Pages</li>
+</ul></li>
+<li>Interviews (tv programme)
+<ul>
+<li>EndNote reference type: Interview</li>
+<li>Active EndNote fields: Interviewee, Year, Title, Interviewee, Interviewer for Program, Date, Format, Pages</li>
+</ul></li>
+<li>Journal article
+<ul>
+<li>EndNote reference type: Journal Article</li>
+<li>Active EndNote fields: Author, Year, Title, Journal, Volume, Issue, Pages, URL or DOI, Access Date</li>
+</ul></li>
+<li>Journal articles (Prepublication online)
+<ul>
+<li>EndNote reference type: Electronic Article</li>
+<li>Active EndNote fields: Author, Year, Title, Periodical Title, Volume, Issue, Pages, Website Title, Database Provider, Type of Work, Name of Database, URL or DOI, Access Date</li>
+</ul></li>
+<li>Kindle e-book
+<ul>
+<li>EndNote reference type: Electronic Book</li>
+<li>Active EndNote fields: Author, Year, Title, Secondary Title, Edition, Place Published, Publisher, Database Provider, URL or DOI, Access Date</li>
+</ul></li>
+<li>Law reports (cases) from 2002 (with neutral citations)
+<ul>
+<li>EndNote reference type: Legal Rule or Regulation</li>
+<li>Active EndNote fields: Author, Year, Title, Title Number, Pages, Name of Database, URL or DOI, Access Date</li>
+</ul></li>
+<li>Lecturer handouts
+<ul>
+<li>EndNote reference type: Unpublished</li>
+<li>Active EndNote fields: Author, Year, Title of Work, Type of Work, Series Title, Institution, Place Published, URL or DOI, Access Date</li>
+</ul></li>
+<li>Manuscripts
+<ul>
+<li>EndNote reference type: Manuscript</li>
+<li>Active EndNote fields: Author, Year, Title, Collection Title, Description of Material, Institution, Library/Archive, Volume/Storage Container, Manuscript Number, Folio Number, URL or DOI, Access Date</li>
+</ul></li>
+<li>Maps (online)
+<ul>
+<li>EndNote reference type: Maps</li>
+<li>Active EndNote fields: Cartographer, Year, Title, Scale, Name of Database, Database Provider, Place Published, Publisher, URL or DOI, Access Date</li>
+</ul></li>
+<li>Maps (GIS)
+<ul>
+<li>EndNote reference type: Maps</li>
+<li>Active EndNote fields: Cartographer, Year, Title, Scale, Name of Database, Database Provider, Place Published, Publisher, URL or DOI, Access Date</li>
+</ul></li>
+<li>Microfiche / Microform
+<ul>
+<li>EndNote reference type: Pamphlet</li>
+<li>Active EndNote fields: Author, Year, Title, Type of Work, Place Published, Publisher, URL or DOI, Access Date</li>
+</ul></li>
+<li>Newspaper article
+<ul>
+<li>EndNote reference type: Newspaper Article</li>
+<li>Active EndNote fields: Reporter, Year, Title, Newspaper, Edition, Issue Date, Pages, URL or DOI, Access Date</li>
+</ul></li>
+<li>Patent
+<ul>
+<li>EndNote reference type: Patent</li>
+<li>Active EndNote fields: Inventor, Year, Title, Published Source, Patent Number, URL or DOI, Access Date</li>
+</ul></li>
+<li>Photographs
+<ul>
+<li>EndNote reference type: Figure</li>
+<li>Active EndNote fields: Created By, Year, Title, Image Source Program, URL or DOI, Access Date</li>
+</ul></li>
+<li>Podcast
+<ul>
+<li>EndNote reference type: Podcast</li>
+<li>Active EndNote fields: Author, Year, Title of Podcast, Date, URL or DOI, Access Date</li>
+</ul></li>
+<li>Presentations
+<ul>
+<li>EndNote reference type: Unpublished</li>
+<li>Active EndNote fields: Author, Year, Title of Work, Type of Work, Series Title, Institution, Place Published, URL or DOI, Access Date</li>
+</ul></li>
+<li>Report (including organisations)
+<ul>
+<li>EndNote reference type: Report</li>
+<li>Active EndNote fields: Author, Year, Title, Type, Document Number, Place Published, Institution, Database Provider, Pages, URL or DOI, Access Date</li>
+</ul></li>
+<li>Self-citation
+<ul>
+<li>EndNote reference type: Unpublished Works</li>
+<li>Active EndNote fields: Author, Year, Title of Work, Type of Work, Series Title, Institution, Place Published, URL or DOI, Access Date</li>
+</ul></li>
+<li>Social Media (YouTube, X, TikTok etc…)
+<ul>
+<li>EndNote reference type: Social Media</li>
+<li>Active EndNote fields: Username, Year, Post Text, Type of Work, Post Date, URL or DOI, Access Date</li>
+</ul></li>
+<li>Software application (including AI tools)
+<ul>
+<li>EndNote reference type: Computer Program</li>
+<li>Active EndNote fields: Programmer, Year, Title, Version, Type, URL or DOI, Access Date</li>
+</ul></li>
+<li>Systematic review
+<ul>
+<li>EndNote reference type: Online Database</li>
+<li>Active EndNote fields: Author, Year, Title, Name of Database, Type of Work, Accession Number, URL or DOI, Access Date</li>
+</ul></li>
+<li>Technical report
+<ul>
+<li>EndNote reference type: Report</li>
+<li>Active EndNote fields: Author, Year, Title, Type, Document Number, Place Published, Institution, Database Provider, Pages, URL or DOI, Access Date</li>
+</ul></li>
+<li>Theatre programme
+<ul>
+<li>EndNote reference type: Press Release</li>
+<li>Active EndNote fields: Author, Year, Title, Date, Type of Work, Publisher, Place Published, URL or DOI, Access Date</li>
+</ul></li>
+<li>Thesis / Dissertation
+<ul>
+<li>EndNote reference type: Thesis</li>
+<li>Active EndNote fields: Author, Year, Title, Degree Thesis Type, University, Place Published, URL or DOI, Access Date</li>
+</ul></li>
+<li>Unpublished article, preprint or report
+<ul>
+<li>EndNote reference type: Report</li>
+<li>Active EndNote fields: Author, Year, Title, Type, Document Number, Place Published, Institution, Database Provider, Pages, URL or DOI, Access Date</li>
+</ul></li>
+<li>Webpage
+<ul>
+<li>EndNote reference type: Web Page</li>
+<li>Active EndNote fields: Author, Year, Title, Series Title, Description, Place Published, Publisher, Type of Medium, URL or DOI, Access Date</li>
+</ul></li>
+<li>Wikipedia (wikis)
+<ul>
+<li>EndNote reference type: Electronic Book Section</li>
+<li>Active EndNote fields: Title, Year, Series Title, URL or DOI, Access Date</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="ideal-output" class="level3">
+<h3 class="anchored" data-anchor-id="ideal-output">Ideal Output</h3>
+<section id="acts-of-parliament" class="level4">
+<h4 class="anchored" data-anchor-id="acts-of-parliament">Acts of Parliament</h4>
+<p><span class="citation" data-cites="environmentAct2021">(<a href="#ref-environmentAct2021" role="doc-biblioref"><em>Environment Act 2021</em>, no date</a>)</span> = Environment Act 2021</p>
+<ul>
+<li>Environment Act 2021. Available at: https://bills.parliament.uk/bills/2593 (Accessed: 15 September 2023).</li>
+</ul>
+</section>
+<section id="blog" class="level4">
+<h4 class="anchored" data-anchor-id="blog">Blog</h4>
+<p><span class="citation" data-cites="blog2019endnote">(<a href="#ref-blog2019endnote" role="doc-biblioref"><em>Getting started with EndNote desktop</em>, 2019</a>)</span> = Specialist Library Support (2019)</p>
+<ul>
+<li>Specialist Library Support (2019). ‘Getting started with EndNote desktop’. Referencing Support, 05 August. Available at: https://medium.com/specialist-library-support/endnote-desktop-getting-started-e199b1f9e525 (Accessed: 16 November 2024).</li>
+</ul>
+</section>
+<section id="books" class="level4">
+<h4 class="anchored" data-anchor-id="books">Books</h4>
+<p><span class="citation" data-cites="baskett2006horse">Baskett (<a href="#ref-baskett2006horse" role="doc-biblioref">2006</a>)</span> = Baskett (2006)</p>
+<ul>
+<li>Baskett, J. (2006). <em>The horse in art</em>. New Haven, Connecticut: Yale University Press.</li>
+</ul>
+<p><span class="citation" data-cites="haniff2016projectManagement">Haniff and Salama (<a href="#ref-haniff2016projectManagement" role="doc-biblioref">2016</a>)</span> = Haniff and Salama (2016)</p>
+<ul>
+<li>Haniff, A. P. and Salama, M. (2016). <em>Project Management</em>. <em>Global Management Series</em>. Oxford: Goodfellow Publishers, Limited.</li>
+</ul>
+<p><span class="citation" data-cites="booknd">J. Smith (<a href="#ref-booknd" role="doc-biblioref">no date</a>)</span> = Smith (no date)</p>
+<ul>
+<li>Smith, J. (no date). <em>Some Unpublished Book</em>.</li>
+</ul>
+</section>
+<section id="books-translations" class="level4">
+<h4 class="anchored" data-anchor-id="books-translations">Books (translations)</h4>
+<p><span class="citation" data-cites="delibes2013path">Delibes (<a href="#ref-delibes2013path" role="doc-biblioref">2013</a>)</span> = Delibes, M. (2013)</p>
+<ul>
+<li>Delibes, M. (2013). <em>The Path</em>. Translated by Haycraft, G. and Haycraft, R. London: Dolphin Books.</li>
+</ul>
+<p><span class="citation" data-cites="heidegger1962beingTime">Heidegger (<a href="#ref-heidegger1962beingTime" role="doc-biblioref">1962</a>)</span> = Heidegger (1962)</p>
+<ul>
+<li>Heidegger, M. (1962). <em>Being and time</em>. Translated by Macquarrie, J. and Robinson, E. 7th edn. New York: Harper and Row.</li>
+</ul>
+</section>
+<section id="british-standard" class="level4">
+<h4 class="anchored" data-anchor-id="british-standard">British Standard</h4>
+<p><span class="citation" data-cites="bsi2014yachts">British Standards Institution (<a href="#ref-bsi2014yachts" role="doc-biblioref">2014</a>)</span> = British Standards Institution (2014)</p>
+<ul>
+<li>British Standards Institution (2014). <em>BS ISO 14886: Ships and marine technology. Large yachts. Structural fire protection for FRP yachts</em> [Seagoing vessels]. London: British Standards Institution. Available at: https://www.iso.org/standard/55260.html (Accessed: 12 June 2023).</li>
+</ul>
+</section>
+<section id="chapter-in-an-edited-book" class="level4">
+<h4 class="anchored" data-anchor-id="chapter-in-an-edited-book">Chapter in an edited book</h4>
+<p><span class="citation" data-cites="wisker2016femaleVampirism">Wisker (<a href="#ref-wisker2016femaleVampirism" role="doc-biblioref">2016</a>)</span> = Wisker (2016)</p>
+<ul>
+<li>Wisker, G. (2016). ‘Female Vampirism’, in Horner, A. and Zlosnik, S. (eds.) <em>Women and the Gothic: An Edinburgh Companion</em>. Edinburgh: Edinburgh University Press, pp.&nbsp;150–165.</li>
+</ul>
+</section>
+<section id="company-financial-and-medical-databases" class="level4">
+<h4 class="anchored" data-anchor-id="company-financial-and-medical-databases">Company, financial and medical databases</h4>
+<p><span class="citation" data-cites="bloomberg2022professional">Bloomberg (<a href="#ref-bloomberg2022professional" role="doc-biblioref">2022</a>)</span> = Bloomberg (2022)</p>
+<ul>
+<li>Bloomberg (2022). Bloomberg Professional. Available at: Subscription Service (Accessed: 30 November 2022).</li>
+</ul>
+<p><span class="citation" data-cites="crsp2022merged">CRSP/Compustat Merged (<a href="#ref-crsp2022merged" role="doc-biblioref">2022</a>)</span> = CRSP/Compustat Merged (2022)</p>
+<ul>
+<li>CRSP/Compustat Merged (2022). CRSP/Compustat Merged. Center for Research in Security Prices. WRDS Available at: https://www.crsp.org/research/crsp-compustat-merged-database/ (Accessed: 14 November 2022).</li>
+</ul>
+<p><span class="citation" data-cites="fame2022database">(<a href="#ref-fame2022database" role="doc-biblioref"><em>Fame</em>, 2022</a>)</span> = Fame (2022)</p>
+<ul>
+<li>Fame (2022). Fame. Bureau van Dijk. Available at: https://fame2.bvdep.com/ (Accessed: 19 November 2022).</li>
+</ul>
+<p><span class="citation" data-cites="cinahl2024plus">CINAHL Information Services (<a href="#ref-cinahl2024plus" role="doc-biblioref">2024</a>)</span> = CINAHL Information Services (2024)</p>
+<ul>
+<li>CINAHL Information Services (2024). CINAHL Plus, EBSCO. Available at: https://web-p-ebscohost-com.manchester.idm.oclc.org/ehost/search/advanced?vid=0&amp;sid=ac38da5f-5abc-4be5-bb21-b551542bd67f%40redis (Accessed: 23 January 2024).</li>
+</ul>
+</section>
+<section id="company-annual-reports" class="level4">
+<h4 class="anchored" data-anchor-id="company-annual-reports">Company annual reports</h4>
+<p><span class="citation" data-cites="dfid2009poverty">Department for International Development (<a href="#ref-dfid2009poverty" role="doc-biblioref">2009</a>)</span> = Department for International Development (2009)</p>
+<ul>
+<li>Department for International Development (2009). Eliminating World Poverty: Building our Common Future [White Paper] (Cm 7656). Surrey, UK: Secretary of State for International Development. Available at: https://www.gov.uk/government/publications/eliminating-world-poverty-building-our-common-future (Accessed: 12 June 2023).</li>
+</ul>
+</section>
+<section id="conference-proceedings" class="level4">
+<h4 class="anchored" data-anchor-id="conference-proceedings">Conference proceedings</h4>
+<p><span class="citation" data-cites="amado2018unbundling">Amado-Salvatierra, Rizzardini and Chan (<a href="#ref-amado2018unbundling" role="doc-biblioref">2018</a>)</span> = Amado-Salvatierra et al.&nbsp;(2018)</p>
+<ul>
+<li>Amado-Salvatierra, H. R. et al.&nbsp;(2018). ‘Unbundling higher education with internationalization. Experiences from two hybrid postgraduate degrees using MOOCs’. In: <em>Proceedings of 2018 Learning with MOOCS (IEEE LWMOOCS 2018): MOOCS For All - a Social and International Approach</em>. Madrid, Spain, 26–28 September 2018, pp.&nbsp;9–12. https://doi.org/10.1109/LWMOOCS.2018.8534684.</li>
+</ul>
+</section>
+<section id="discography-music" class="level4">
+<h4 class="anchored" data-anchor-id="discography-music">Discography (music)</h4>
+<p><span class="citation" data-cites="discography1985smiths">The Smiths (<a href="#ref-discography1985smiths" role="doc-biblioref">1985</a>)</span> = The Smiths (1985)</p>
+<ul>
+<li>The Smiths (1985). ‘How Soon Is Now?’, <em>Hatful of Hollow</em> [Record]. London: Rough Trade.</li>
+</ul>
+</section>
+<section id="e-books" class="level4">
+<h4 class="anchored" data-anchor-id="e-books">E-books</h4>
+<p><span class="citation" data-cites="haddock2018leadership">Haddock-Fraser, Rands and Scoffham (<a href="#ref-haddock2018leadership" role="doc-biblioref">2018</a>)</span> = Haddock-Fraser, Rands and Scoffham (2018)</p>
+<ul>
+<li>Haddock-Fraser, J., Rands, P. and Scoffham, S. (2018). <em>Leadership for Sustainability in Higher Education</em>. London: Bloomsbury Publishing Plc. Available at: http://ebookcentral.proquest.com/lib/manchester/detail.action?docID=5394335 (Accessed: 03 June 2024).</li>
+</ul>
+</section>
+<section id="edited-book" class="level4">
+<h4 class="anchored" data-anchor-id="edited-book">Edited Book</h4>
+<p><span class="citation" data-cites="stringer1996oxford">Stringer (<a href="#ref-stringer1996oxford" role="doc-biblioref">1996</a>)</span> = Stringer (1996)</p>
+<ul>
+<li>Stringer, J. (ed.) (1996). The Oxford companion to twentieth-century literature in English. Oxford: Oxford University Press.</li>
+</ul>
+</section>
+<section id="film-tv-show-or-broadcast" class="level4">
+<h4 class="anchored" data-anchor-id="film-tv-show-or-broadcast">Film, TV show or broadcast</h4>
+<p><span class="citation" data-cites="dontlookup2021film">(<a href="#ref-dontlookup2021film" role="doc-biblioref"><em>Don’t Look Up.</em>, 2021</a>)</span> = <em>Don’t Look Up.</em> (2021)</p>
+<ul>
+<li><em>Don’t Look Up.</em> (2021). Directed by McKay, A [Stream]. United States of America: Netflix.</li>
+</ul>
+</section>
+<section id="grantfunding-proposal" class="level4">
+<h4 class="anchored" data-anchor-id="grantfunding-proposal">Grant/Funding Proposal</h4>
+<p><span class="citation" data-cites="summers2021ktp">Summers (<a href="#ref-summers2021ktp" role="doc-biblioref">2021</a>)</span> = Summers (2021)</p>
+<ul>
+<li>Summers, J. (2021). <em>Knowledge transfer partnerships (KTP): 2021 to 2022, round 1 - Innovation area: Biosciences</em>. Innovation Funding Service. 24 Months, pp.&nbsp;1–32. Available at: https://apply-for-innovation-funding.service.gov.uk/application/10003582 (Accessed: 02 September 2024).</li>
+</ul>
+</section>
+<section id="governmentcorporate-publications-e.g.-guidelines" class="level4">
+<h4 class="anchored" data-anchor-id="governmentcorporate-publications-e.g.-guidelines">Government/Corporate publications (e.g.&nbsp;guidelines)</h4>
+<p><span class="citation" data-cites="nice2016preterm">National Institute for Clinical Excellence (<a href="#ref-nice2016preterm" role="doc-biblioref">2016</a>)</span> = NICE (2016)</p>
+<ul>
+<li>National Institute for Clinical Excellence (2016). <em>Preterm labour and birth (QS135)</em>. Available at: https://www.nice.org.uk/guidance/qs135/resources/preterm-labour-and-birth-pdf-75545420722117 (Accessed: 25 May 2022).</li>
+</ul>
+</section>
+<section id="illustrations-images-tables" class="level4">
+<h4 class="anchored" data-anchor-id="illustrations-images-tables">Illustrations / Images / Tables</h4>
+<p><span class="citation" data-cites="illustration2023figure">FIFA.com (<a href="#ref-illustration2023figure" role="doc-biblioref">2016</a>)</span> = FIFA.com (2016)</p>
+<ul>
+<li>FIFA.com (2016). Official mascot Zabivaka™ [Illustration]. Available at: https://www.fifa.com/worldcup/organisation/mascot (Accessed: 20 June 2017).</li>
+</ul>
+</section>
+<section id="interviews-anonymised-medical" class="level4">
+<h4 class="anchored" data-anchor-id="interviews-anonymised-medical">Interviews (Anonymised medical)</h4>
+<p><span class="citation" data-cites="clientA2020interview">[Client A] (<a href="#ref-clientA2020interview" role="doc-biblioref">2020</a>)</span> = Client A (2020)</p>
+<ul>
+<li>[Client A] (2020). ‘Discussions about their care’ [Interview]. Manchester: hospital placement. Unpublished.</li>
+</ul>
+</section>
+<section id="interviews-newspaper" class="level4">
+<h4 class="anchored" data-anchor-id="interviews-newspaper">Interviews (newspaper)</h4>
+<p><span class="citation" data-cites="amis2001conversation">Amis (<a href="#ref-amis2001conversation" role="doc-biblioref">2001</a>)</span> = Amis (2001)</p>
+<ul>
+<li>Amis, K. (2001). ‘In conversation with… Kingsley Amis’. Interview with Amis, K. Interviewed by Self, W. for The Independent, p.&nbsp;73.</li>
+</ul>
+</section>
+<section id="interviews-tv-programme" class="level4">
+<h4 class="anchored" data-anchor-id="interviews-tv-programme">Interviews (tv programme)</h4>
+<p><span class="citation" data-cites="clough1974brian">Clough (<a href="#ref-clough1974brian" role="doc-biblioref">1974</a>)</span> = Clough (1974)</p>
+<ul>
+<li>Clough, B. (1974). ‘Brian Clough’. Interview by Frost, D. <em>The Frost Interview</em>, BBC Television, 13 November. Available at: https://www.bbc.co.uk/iplayer/episode/p00ny04k/the-frost-interview-brian-clough (Accessed: 18 January 2024).</li>
+</ul>
+</section>
+<section id="journal-article" class="level4">
+<h4 class="anchored" data-anchor-id="journal-article">Journal article</h4>
+<p><span class="citation" data-cites="flora2024mltutorial">Flora et al. (<a href="#ref-flora2024mltutorial" role="doc-biblioref">2024</a>)</span> = Flora et al.&nbsp;(2024)</p>
+<ul>
+<li>Flora, M. L. et al.&nbsp;(2024). ‘A Machine Learning Explainability Tutorial for Atmospheric Sciences’. <em>Artificial Intelligence for the Earth Systems</em>, 3(1), e230018. https://doi.org/10.1175/AIES-D-23-0018.1.</li>
+</ul>
+<p><span class="citation" data-cites="tanzila2020lowImpact">Tanzila, Lindri and Putri (<a href="#ref-tanzila2020lowImpact" role="doc-biblioref">2020</a>)</span> = Tanzilla, Lindri and Putry (2020)</p>
+<ul>
+<li>Tanzila, R. A., Lindri, S. Y. and Putri, N. R. (2020). ‘The Effect of Low Impact Aerobic Exercise on Elderly with Dementia Cognitive Function’, <em>Global Medical &amp; Health Communication</em>, 8 (1), pp.&nbsp;73–77. https://doi.org/10.29313/gmhc.v8i1.5462.</li>
+</ul>
+<p><span class="citation" data-cites="zakaria2000oilPollution">Zakaria et al. (<a href="#ref-zakaria2000oilPollution" role="doc-biblioref">2000</a>)</span> = Zakaria et al.&nbsp;(2000)</p>
+<ul>
+<li>Zakaria, M. P. et al.&nbsp;(2000). ‘Oil Pollution in the Straits of Malacca, Malaysia: Application of Molecular Markers for Source Identification’, <em>Environmental Science &amp; Technology</em>, 34 (7), pp.&nbsp;1189–1196. Available at: https://www.proquest.com/scholarly-journals/oil-pollution-straits-malacca-malaysia/docview/17659659/se-2 (Accessed: 21 March 2024).</li>
+</ul>
+</section>
+<section id="journal-articles-prepublication-online" class="level4">
+<h4 class="anchored" data-anchor-id="journal-articles-prepublication-online">Journal articles (Prepublication online)</h4>
+<p><span class="citation" data-cites="achten2024protocol">Achten et al. (<a href="#ref-achten2024protocol" role="doc-biblioref">2024</a>)</span> = Achten et al.&nbsp;(2024)</p>
+<ul>
+<li>Achten, J. et al.&nbsp;(2024). ‘Protocol for Surgery or Cast of the EpicoNdyle in Children’s Elbows (SCIENCE)’. <em>Bone &amp; Joint Open</em>, 5(1), pp.&nbsp;69–77. NLM [Preprint] Available at: https://pubmed.ncbi.nlm.nih.gov/38269598/ (Accessed: 25 January 2024).</li>
+</ul>
+</section>
+<section id="kindle-e-book" class="level4">
+<h4 class="anchored" data-anchor-id="kindle-e-book">Kindle e-book</h4>
+<p><span class="citation" data-cites="mandela2013longWalk">Mandela (<a href="#ref-mandela2013longWalk" role="doc-biblioref">2013</a>)</span> = Mandela (2013)</p>
+<ul>
+<li>Mandela, N. (2013). <em>Long Walk to Freedom: Abacus 40th Anniversary edition</em>. <em>Kindle</em>. Available at: Amazon.co.uk.</li>
+</ul>
+</section>
+<section id="law-reports-cases-from-2002-with-neutral-citations" class="level4">
+<h4 class="anchored" data-anchor-id="law-reports-cases-from-2002-with-neutral-citations">Law reports (cases) from 2002 (with neutral citations)</h4>
+<p><span class="citation" data-cites="revenue2007smith">(<a href="#ref-revenue2007smith" role="doc-biblioref"><em>Revenue and Customs v. Smith</em>, 2007</a>)</span> = Revenue and Customs v. Smith (2007)</p>
+<ul>
+<li>Revenue and Customs v. Smith (2007). Royal Courts of Justice, Case: CH/2006/APP/0767. BAILII. Available at: https://www.bailii.org/cgi-bin/format.cgi?doc=/ew/cases/EWHC/Ch/2007/488.html&amp;query=(ewhc)+AND+(2007)+AND+(488) (Accessed: 18 May 2020).</li>
+</ul>
+</section>
+<section id="lecturer-handouts" class="level4">
+<h4 class="anchored" data-anchor-id="lecturer-handouts">Lecturer handouts</h4>
+<p><span class="citation" data-cites="anderton2024mechanisedHandout">Anderton (<a href="#ref-anderton2024mechanisedHandout" role="doc-biblioref">2024</a>)</span> = Anderton (2024)</p>
+<ul>
+<li>Anderton, L. (2024). ‘The rise and fall of the mechanised world’ [Lecturer handout]. <em>MECH66569: Reinventing Mechanisation</em>. University of Manchester. Unpublished.</li>
+</ul>
+<p><span class="citation" data-cites="booth2011radiographyHandout">Booth (<a href="#ref-booth2011radiographyHandout" role="doc-biblioref">2011</a>)</span> = Booth (2011)</p>
+<ul>
+<li>Booth, L. (2011). ‘History of radiography’ [PowerPoint presentation]. <em>MISR4004: Patient care skills: an introduction to human sciences</em>. University of Cumbria. Available at: https://mylearning.cumbria.ac.uk (Accessed: 20 January 2023).</li>
+</ul>
+</section>
+<section id="manuscripts" class="level4">
+<h4 class="anchored" data-anchor-id="manuscripts">Manuscripts</h4>
+<p><span class="citation" data-cites="salisbury1240commonSaints">Scriptorium of Salisbury Cathedral (<a href="#ref-salisbury1240commonSaints" role="doc-biblioref">1240–1260</a>)</span> = Scriptorium of Salisbury Cathedral (1240–1260)</p>
+<ul>
+<li>Scriptorium of Salisbury Cathedral (1240–1260). <em>Common of Saints</em>. Sarum Missal [Manuscript]. At: University of Manchester, The John Rylands Research Institute and Library. Latin MS 24. 157r. Available at: https://www.digitalcollections.manchester.ac.uk/view/MS-LATIN-00024/393 (Accessed: 24 October 2024).</li>
+</ul>
+</section>
+<section id="maps-online" class="level4">
+<h4 class="anchored" data-anchor-id="maps-online">Maps (online)</h4>
+<p><span class="citation" data-cites="ordnance2018uom">Ordinance Survey (<a href="#ref-ordnance2018uom" role="doc-biblioref">2018</a>)</span> = Ordnance Survey (2018)</p>
+<ul>
+<li>Ordnance Survey (2018). University of Manchester Library, SJ 84509 96452. 1:25 000. Available at: https://osmaps.ordnancesurvey.co.uk/53.46459,-2.23480,18/pin (Accessed: 13 November 2018).</li>
+</ul>
+<p><span class="citation" data-cites="googlemaps2018uomLibrary">Google Maps (<a href="#ref-googlemaps2018uomLibrary" role="doc-biblioref">2018a</a>)</span> = Google Maps (2018a)</p>
+<ul>
+<li>Google Maps (2018a). <em>University of Manchester Library</em>. Available at: <code>https://www.google.co.uk/maps/@53.4637019,-2.2363183,396m/data=!3m1!1e3</code> (Accessed: 13 November 2018).</li>
+</ul>
+<p><span class="citation" data-cites="googlemaps2018johnRylands">Google Maps (<a href="#ref-googlemaps2018johnRylands" role="doc-biblioref">2018b</a>)</span> = Google Maps (2018b)</p>
+<ul>
+<li>Google Maps (2018b). <em>The John Rylands Library, University of Manchester</em>. Available at: <code>https://www.google.com/maps/@53.4803048,-2.2483242,3a,75y,284.39h,110.31t/data=!3m6!1e1!3m4!1sxScudi5YHow8fS_FU3GPoA!2e0!7i13312!8i6656</code> (Accessed: 9 November 2020).</li>
+</ul>
+</section>
+<section id="maps-gis" class="level4">
+<h4 class="anchored" data-anchor-id="maps-gis">Maps (GIS)</h4>
+<p><span class="citation" data-cites="naturalEngland2017woodland">Natural England (<a href="#ref-naturalEngland2017woodland" role="doc-biblioref">2017</a>)</span> = Natural England (2017)</p>
+<ul>
+<li>Natural England. (2017). <em>Map of deciduous woodland in North Yorkshire</em>. Scale 1cm = 1km. <em>Deciduous woodland BAP priority habitat (England) datafile</em>. Using: Explorer for ArcGIS. Redlands, CA: Esri.</li>
+</ul>
+</section>
+<section id="microfiche-microform" class="level4">
+<h4 class="anchored" data-anchor-id="microfiche-microform">Microfiche / Microform</h4>
+<p><span class="citation" data-cites="generalMicrofilm1971pamphlets">General Microfilm Company (<a href="#ref-generalMicrofilm1971pamphlets" role="doc-biblioref">1971</a>)</span> = General Microfilm Company (1971)</p>
+<ul>
+<li>General Microfilm Company (1971). <em>French Revolutionary pamphlets</em> [Microfiche]. Massachusetts: Watertown Publishing.</li>
+</ul>
+</section>
+<section id="newspaper-article" class="level4">
+<h4 class="anchored" data-anchor-id="newspaper-article">Newspaper article</h4>
+<p><span class="citation" data-cites="gregory2023sixLifestyle">Gregory (<a href="#ref-gregory2023sixLifestyle" role="doc-biblioref">2023</a>)</span> = Gregory (2023)</p>
+<ul>
+<li>Gregory, A. (2023). ‘Six lifestyle choices to slow memory decline named in 10-year study’. <em>The Guardian</em>, 25 January. Available at: https://www.theguardian.com/science/2023/jan/25/six-lifestyle-choices-to-slow-memory-decline-named-in-10-year-study (Accessed: 25 September 2023).</li>
+</ul>
+</section>
+<section id="patent" class="level4">
+<h4 class="anchored" data-anchor-id="patent">Patent</h4>
+<p><span class="citation" data-cites="kruger1989starch">Kruger (<a href="#ref-kruger1989starch" role="doc-biblioref">1989</a>)</span> = Kruger (1989)</p>
+<ul>
+<li>Kruger, L. H. (1989). <em>Degradation of granular starch</em>. Patent no. us4838944. Available at: https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/4838944 (Accessed: 12 June 2023).</li>
+</ul>
+</section>
+<section id="photographs" class="level4">
+<h4 class="anchored" data-anchor-id="photographs">Photographs</h4>
+<p><span class="citation" data-cites="melland1935backStreet">Melland (<a href="#ref-melland1935backStreet" role="doc-biblioref">1935</a>)</span> = Melland (1935)</p>
+<ul>
+<li>Melland, S. (1935). <em>Back Street, Manchester</em> [Photograph]. Available at: https://artuk.org/discover/artworks/back-street-manchester-205576 (Accessed: 05 July 2024).</li>
+</ul>
+<p><span class="citation" data-cites="andertione2024vistaPhoto">Andertione (<a href="#ref-andertione2024vistaPhoto" role="doc-biblioref">2024</a>)</span> = Andertione (2024)</p>
+<ul>
+<li>Andertione, L. (2024). <em>Vista de la mort</em> [Photograph]. Available at: www.andertionephotography.fr (Accessed: 07 February 2024).</li>
+</ul>
+</section>
+<section id="podcast" class="level4">
+<h4 class="anchored" data-anchor-id="podcast">Podcast</h4>
+<p><span class="citation" data-cites="bbcWorldService2019spaceStations">BBC World Service (<a href="#ref-bbcWorldService2019spaceStations" role="doc-biblioref">2019</a>)</span> = BBC World Service (2019)</p>
+<ul>
+<li>BBC World Service (2019). <em>Do we need more space stations?</em> <a href="#podcast">Podcast</a>. 02 June. Available at: https://www.bbc.co.uk/sounds/play/w3csz1td (Accessed: 02 September 2019).</li>
+</ul>
+</section>
+<section id="presentations" class="level4">
+<h4 class="anchored" data-anchor-id="presentations">Presentations</h4>
+<p><span class="citation" data-cites="anderton2017mechanisedPresentation">Anderton (<a href="#ref-anderton2017mechanisedPresentation" role="doc-biblioref">2017</a>)</span> = Anderton (2017)</p>
+<ul>
+<li>Anderton, L. (2017). ‘The rise and fall of the mechanised world’ [PowerPoint presentation]. <em>MECH66569: Reinventing Mechanisation</em>. University of Manchester. Unpublished.</li>
+</ul>
+<p><span class="citation" data-cites="booth2011radiographyHandout">Booth (<a href="#ref-booth2011radiographyHandout" role="doc-biblioref">2011</a>)</span> = Booth (2011)</p>
+<ul>
+<li>Booth, L. (2011). ‘History of radiography’ [PowerPoint presentation]. <em>MISR4004: Patient care skills: an introduction to human sciences</em>. University of Cumbria. Available at: https://mylearning.cumbria.ac.uk (Accessed: 20 January 2023).</li>
+</ul>
+</section>
+<section id="report-including-organisations" class="level4">
+<h4 class="anchored" data-anchor-id="report-including-organisations">Report (including organisations)</h4>
+<p><span class="citation" data-cites="gsk2023sdgs">GSK (<a href="#ref-gsk2023sdgs" role="doc-biblioref">2023</a>)</span> = GSK (2023)</p>
+<ul>
+<li>GSK (2023). <em>Our Contribution to the SDGs</em>. Available at: https://www.gsk.com/media/9976/our-contribution-to-the-sdgs.pdf (Accessed: 13 October 2023).</li>
+</ul>
+</section>
+<section id="self-citation" class="level4">
+<h4 class="anchored" data-anchor-id="self-citation">Self-citation</h4>
+<p><span class="citation" data-cites="alumna2023prisoners">Alumna (<a href="#ref-alumna2023prisoners" role="doc-biblioref">2023</a>)</span> = Alumna (2023)</p>
+<ul>
+<li>Alumna, U. (2023). ‘The determining factors in deciding which prisoners are at a high risk of developing long-term psychological conditions’ <em>PSYC62301: Introduction to Forensic Psychology and Professional Practice</em>. University of Manchester. Unpublished essay.</li>
+</ul>
+</section>
+<section id="social-media-youtube-x-tiktok-etc" class="level4">
+<h4 class="anchored" data-anchor-id="social-media-youtube-x-tiktok-etc">Social Media (YouTube, X, TikTok etc…)</h4>
+<p><span class="citation" data-cites="uomlibrary2018gothic">The University of Manchester Library (<a href="#ref-uomlibrary2018gothic" role="doc-biblioref">2018</a>)</span> = The University of Manchester Library (2018)</p>
+<ul>
+<li>The University of Manchester Library (2018). <em>Darkness and Light: Exploring the Gothic</em> [YouTube]. Available at: https://www.youtube.com/watch?v=SHaf6ZeJlP8&amp;t=0s&amp;list=PL5JZDOVO6NB9wdfu_uIQyzcu8r6f7ugc2&amp;index=4 (Accessed: 15 November 2018).</li>
+</ul>
+<p><span class="citation" data-cites="popcrave2023ken">Pop Crave (<a href="#ref-popcrave2023ken" role="doc-biblioref">2023</a>)</span> = Pop Crave (2023)</p>
+<ul>
+<li>Pop Crave (2023). <em>The #Barbie costume design team “rushed to make” Ryan Gosling his own Ken-branded underwear…</em> [Twitter] 11:28 pm · 12 Jun.&nbsp;Available at: https://twitter.com/PopCrave/status/1668384726347055104 (Accessed: 13 June 2023).</li>
+</ul>
+</section>
+<section id="software-application-including-ai-tools" class="level4">
+<h4 class="anchored" data-anchor-id="software-application-including-ai-tools">Software application (including AI tools)</h4>
+<p><span class="citation" data-cites="openai2022gpt3">OpenAI (<a href="#ref-openai2022gpt3" role="doc-biblioref">2022</a>)</span> = OpenAI (2022)</p>
+<ul>
+<li>OpenAI (2022). <em>ChatGPT (version GPT3)</em> [Computer Programme]. Available at: https://openai.com/blog/chatgpt/ (Accessed: 13 December 2022).</li>
+</ul>
+</section>
+<section id="systematic-review" class="level4">
+<h4 class="anchored" data-anchor-id="systematic-review">Systematic review</h4>
+<p><span class="citation" data-cites="kuti2023handHygiene">Kuti et al. (<a href="#ref-kuti2023handHygiene" role="doc-biblioref">2023</a>)</span> = Kuti (2023)</p>
+<ul>
+<li>Kuti, B. P. et al.&nbsp;(2023). ‘Hand hygiene for the prevention of infections in neonates’, <em>Cochrane Database of Systematic Reviews</em>, (6), CD013326 <a href="#systematic-review">Systematic Review</a>. https://doi.org/10.1002/14651858.CD013326.pub4.</li>
+</ul>
+</section>
+<section id="technical-report" class="level4">
+<h4 class="anchored" data-anchor-id="technical-report">Technical report</h4>
+<p><span class="citation" data-cites="techreport1987mm4">Anthes, Hsie and Kuo (<a href="#ref-techreport1987mm4" role="doc-biblioref">1987</a>)</span> = Anthes, Hsie and Kuo (1987)</p>
+<ul>
+<li>Anthes, R. A., Hsie, E. Y. and Kuo, Y. H. (1987). <em>Description of the Penn State/NCAR mesoscale model version 4 (MM4)</em> (NCAR/TN-293+STR). Boulder, CO: University Corporation for Atmospheric Research. p.&nbsp;66. https://doi.org/10.5065/D64B2Z90.</li>
+</ul>
+<p><span class="citation" data-cites="gannon1978seaBreeze">Gannon (<a href="#ref-gannon1978seaBreeze" role="doc-biblioref">1978</a>)</span> = Gannon (1978)</p>
+<ul>
+<li>Gannon, P. T. (1978). <em>Influence of earth surface and cloud properties on the South Florida sea breeze</em>. (iv, 91 p.). Boulder, CO: National Oceanic and Atmospheric Administration, Environmental Research Laboratories. Available at: https://catalog.hathitrust.org/Record/012206801 (Accessed: 12 December 2022).</li>
+</ul>
+</section>
+<section id="theatre-programme" class="level4">
+<h4 class="anchored" data-anchor-id="theatre-programme">Theatre programme</h4>
+<p><span class="citation" data-cites="regentsPark2015seagull">Regent’s Park Open Air Theatre (<a href="#ref-regentsPark2015seagull" role="doc-biblioref">2015</a>)</span> = Regent’s Park Open Air Theatre (2015)</p>
+<ul>
+<li>Regent’s Park Open Air Theatre (2015). <em>The Seagull</em>. 12 May 2015 <a href="#theatre-programme">Theatre programme</a>. Regent’s Park Open Air Theatre: London.</li>
+</ul>
+<p><span class="citation" data-cites="theatre2023mousetrap">St. Martin’s Theatre Company (<a href="#ref-theatre2023mousetrap" role="doc-biblioref">2023</a>)</span> = St.&nbsp;Martin’s Theatre Company (2023)</p>
+<ul>
+<li>St.&nbsp;Martin’s Theatre Company (2023). The Mousetrap, 18 September 2023 <a href="#theatre-programme">Theatre programme</a>. St.&nbsp;Martin’s Theatre: London. Available at: https://uk.the-mousetrap.co.uk/.</li>
+</ul>
+<p><span class="citation" data-cites="marsh2015spotlight">Marsh (<a href="#ref-marsh2015spotlight" role="doc-biblioref">2015</a>)</span> = Marsh (2015)</p>
+<ul>
+<li>Marsh (2015). ‘Spotlight on the author’, in Regent’s Park Open Air Theatre (2015). <em>The Seagull</em>, 12 May 2015 <a href="#theatre-programme">Theatre programme</a>. Regent’s Park Open Air Theatre: London, p.&nbsp;17.</li>
+</ul>
+</section>
+<section id="thesis-dissertation" class="level4">
+<h4 class="anchored" data-anchor-id="thesis-dissertation">Thesis / Dissertation</h4>
+<p><span class="citation" data-cites="doody2001severedHeads">Doody (<a href="#ref-doody2001severedHeads" role="doc-biblioref">2001</a>)</span> = Doody (2001)</p>
+<ul>
+<li>Doody, N. (2001). <em>Severed heads: the influence of Oscar Wilde on W. B. Yeats</em>. unpublished doctoral thesis, Trinity College, Dublin. Available at: https://www-proquest-com.manchester.idm.oclc.org/dissertations-theses/severed-heads-influence-oscar-wilde-on-w-b-yeats/docview/301554606/se-2 (Accessed: 10 July 2023).</li>
+</ul>
+</section>
+<section id="unpublished-article-preprint-or-report" class="level4">
+<h4 class="anchored" data-anchor-id="unpublished-article-preprint-or-report">Unpublished article, preprint or report</h4>
+<p><span class="citation" data-cites="smith2014learningDevelopers">G. Smith (<a href="#ref-smith2014learningDevelopers" role="doc-biblioref">2014</a>)</span> = Smith (2014)</p>
+<ul>
+<li>Smith, G. (2014). <em>How Learning Developers support the development of Information Literacy in HE institutions</em>. Internal document. University of Manchester. Unpublished. Available at: http://arXiv.org/abs/2410.51423v3 (Accessed: 21 January 2024).</li>
+</ul>
+<p><span class="citation" data-cites="mann2020coinfection">Mann et al. (<a href="#ref-mann2020coinfection" role="doc-biblioref">2020</a>)</span> = Mann (2020)</p>
+<ul>
+<li>Mann, P. et al.&nbsp;(2020). <em>Cooperative coinfection dynamics on clustered networks</em>. Preprint. University of St Andrews. Unpublished. Available at: https://arxiv.org/abs/2012.09457 (Accessed: 13 June 2023).</li>
+</ul>
+</section>
+<section id="webpage" class="level4">
+<h4 class="anchored" data-anchor-id="webpage">Webpage</h4>
+<p><span class="citation" data-cites="unitedNations2023goals">United Nations (<a href="#ref-unitedNations2023goals" role="doc-biblioref">2023</a>)</span> = United Nations (2023)</p>
+<ul>
+<li>United Nations (2023). <em>The 17 goals</em>. Available at: https://sdgs.un.org/goals (Accessed: 07 September 2023).</li>
+</ul>
+</section>
+<section id="wikipedia-wikis" class="level4">
+<h4 class="anchored" data-anchor-id="wikipedia-wikis">Wikipedia (wikis)</h4>
+<p><span class="citation" data-cites="anderton2016andertonBaronets">(<a href="#ref-anderton2016andertonBaronets" role="doc-biblioref"><em>Anderton baronets</em>, 2016</a>)</span> = <em>Anderton baronets</em> (2026)</p>
+<ul>
+<li>‘Anderton baronets’ (2016). Wikipedia. Available at: https://en.wikipedia.org/wiki/anderton_baronets (Accessed: 01 November 2018).</li>
 </ul>
 
 
@@ -492,41 +1190,215 @@ window.Quarto = {
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-na2025" class="csl-entry" role="listitem">
-(2025). '<em>Some book</em>',.
+<div id="ref-anderton2016andertonBaronets" class="csl-entry" role="listitem">
+(2016). <em>Anderton baronets</em>. Available at: <a href="https://en.wikipedia.org/wiki/anderton_baronets">https://en.wikipedia.org/wiki/anderton_baronets</a> (Accessed: 13 November 2018).
 </div>
 <div id="ref-bergelson_1996" class="csl-entry" role="listitem">
-Bergelson, V. (1996). 'Ergodic ramsey theory - an update', in Pollicott, M. and Schmidt, K. <em>Ergodic theory and zd actions</em>,: <em>London mathematical society lecture note series</em>. Cambridge University Press. pp. 1–62. <a href="https://doi.org/10.1017/CBO9780511662812.002">https://doi.org/10.1017/CBO9780511662812.002.</a>
+Bergelson, V. (1996). 'Ergodic Ramsey Theory - an Update', in Pollicott, M. and Schmidt, K. <em>Ergodic Theory and Z^d Actions</em>,: <em>London Mathematical Society Lecture Note Series</em>. Cambridge: Cambridge University Press. pp. 1–62. <a href="https://doi.org/10.1017/CBO9780511662812.002">https://doi.org/10.1017/CBO9780511662812.002.</a>
 </div>
 <div id="ref-Bekka2000GroupActionDynamics" class="csl-entry" role="listitem">
 Bekka, M. B. and Mayer, M. (2000). <em>Ergodic theory and topological dynamics of group actions on homogeneous spaces</em>. Cambridge University Press. <a href="https://doi.org/10.1017/cbo9780511758898">https://doi.org/10.1017/cbo9780511758898.</a>
 </div>
 <div id="ref-Moreira_2019" class="csl-entry" role="listitem">
-Moreira, J., Richter, F. and Robertson, D. (2019). 'A proof of a sumset conjecture of erdős', <em><em>Annals of Mathematics</em>,</em> 189 (2), <a href="https://doi.org/10.4007/annals.2019.189.2.4">https://doi.org/10.4007/annals.2019.189.2.4.</a>
+Moreira, J., Richter, F. K. and Robertson, D. (2019). 'A proof of a sumset conjecture of Erdős', <em><em>Annals of Mathematics</em>,</em> 189 (2), <a href="https://doi.org/10.4007/annals.2019.189.2.4">https://doi.org/10.4007/annals.2019.189.2.4.</a>
 </div>
 <div id="ref-kra2023problems" class="csl-entry" role="listitem">
-Kra, B., et al. (2023). '<em>Problems on infinite sumset configurations in the integers and beyond</em>', Available at: <a href="https://arxiv.org/abs/2311.06197">https://arxiv.org/abs/2311.06197</a>.
+Kra, B., et al. (2023). <em>Problems on infinite sumset configurations in the integers and beyond</em>. [Manuscript].
 </div>
-<div id="ref-bbc2025" class="csl-entry" role="listitem">
-BBC (2025). '<em>Some BBC article</em>',.
+<div id="ref-bbcWorldService2019spaceStations" class="csl-entry" role="listitem">
+(2019). '<em>Do we need more space stations?</em>', Available at: <a href="https://www.bbc.co.uk/sounds/play/w3csz1td">https://www.bbc.co.uk/sounds/play/w3csz1td</a> (Accessed: 02 September 2019).
 </div>
 <div id="ref-booknd" class="csl-entry" role="listitem">
-Smith, J. '<em>Some unpublished book</em>',.
+Smith, J. <em>Some Unpublished Book</em>.
 </div>
 <div id="ref-kra2022infinite" class="csl-entry" role="listitem">
-Kra, B., et al. (2022a). '<em>Infinite sumsets in sets with positive density</em>', Available at: <a href="https://arxiv.org/abs/2206.01786">https://arxiv.org/abs/2206.01786</a>.
+Kra, B., et al. (2022a). <em>Infinite Sumsets in Sets with Positive Density</em>. [Manuscript].
 </div>
 <div id="ref-kra2022proof" class="csl-entry" role="listitem">
-Kra, B., et al. (2022b). '<em>A proof of erdős’s <span class="math inline">\(B+B+t\)</span> conjecture</em>', Available at: <a href="https://arxiv.org/abs/2206.12377">https://arxiv.org/abs/2206.12377</a>.
+Kra, B., et al. (2022b). <em>A proof of Erdős’s B+B+t conjecture</em>. [Manuscript].
 </div>
 <div id="ref-prince2024" class="csl-entry" role="listitem">
-Prince, L. (2024). '<em>Some psychology book</em>',.
+Prince, L. (2024). <em>Some Psychology Dissertation</em>. Unpublished BSc thesis, University of Bath Spa.
 </div>
 <div id="ref-prince2022" class="csl-entry" role="listitem">
-Prince, Kai (2022). '<em>Some mathematics book</em>',.
+Prince, Kai (2022). <em>Some Mathematics Dissertation</em>. Unpublished MMath thesis, University of Manchester.
 </div>
 <div id="ref-prince2026" class="csl-entry" role="listitem">
-Prince, Kira (2026). '<em>Some primary education book</em>',.
+Prince, Kira (2026). <em>Some Primary Education Dissertation</em>. Unpublished BA thesis, University of Sussex.
+</div>
+<div id="ref-environmentAct2021" class="csl-entry" role="listitem">
+'<em>Environment Act 2021</em>', Available at: <a href="https://bills.parliament.uk/bills/2593">https://bills.parliament.uk/bills/2593</a> (Accessed: 15 September 2023).
+</div>
+<div id="ref-blog2019endnote" class="csl-entry" role="listitem">
+Specialist Library Support 'Getting started with EndNote desktop', '<em>Getting started with EndNote desktop</em>', Available at: <a href="https://medium.com/specialist-library-support/endnote-desktop-getting-started-e199b1f9e525">https://medium.com/specialist-library-support/endnote-desktop-getting-started-e199b1f9e525</a> (Accessed: 16 November 2024).
+</div>
+<div id="ref-baskett2006horse" class="csl-entry" role="listitem">
+Baskett, J. (2006). <em>The horse in art</em>. New Haven, Connecticut: Yale University Press.
+</div>
+<div id="ref-haniff2016projectManagement" class="csl-entry" role="listitem">
+Haniff, A. P. and Salama, M. (2016). <em>Project Management</em>. Global Management Series Oxford: Goodfellow Publishers, Limited.
+</div>
+<div id="ref-delibes2013path" class="csl-entry" role="listitem">
+Delibes, M. (2013). <em>The Path</em>. London: Dolphin Books.
+</div>
+<div id="ref-heidegger1962beingTime" class="csl-entry" role="listitem">
+Heidegger, M. (1962). <em>Being and time</em>. 7th edn. New York: Harper and Row.
+</div>
+<div id="ref-bsi2014yachts" class="csl-entry" role="listitem">
+institution (2014). London: British Standards Institution. '<em>BS ISO 14886</em>', Available at: <a href="https://www.iso.org/standard/55260.html">https://www.iso.org/standard/55260.html</a> (Accessed: 12 June 2023).
+</div>
+<div id="ref-wisker2016femaleVampirism" class="csl-entry" role="listitem">
+Wisker, G. (2016). 'Female Vampirism', in Horner, A. and Zlosnik, S. <em>Women and the Gothic: An Edinburgh Companion</em>, Edinburgh: Edinburgh University Press. pp. 150–165.
+</div>
+<div id="ref-bloomberg2022professional" class="csl-entry" role="listitem">
+Bloomberg (2022). '<em>Bloomberg Professional</em>',.
+</div>
+<div id="ref-crsp2022merged" class="csl-entry" role="listitem">
+CRSP/Compustat Merged (2022). '<em>CRSP/Compustat Merged Database</em>', Available at: <a href="https://www.crsp.org/research/crsp-compustat-merged-database/">https://www.crsp.org/research/crsp-compustat-merged-database/</a> (Accessed: 14 November 2022).
+</div>
+<div id="ref-fame2022database" class="csl-entry" role="listitem">
+(2022). '<em>Fame</em>', Available at: <a href="https://fame2.bvdep.com/">https://fame2.bvdep.com/</a> (Accessed: 19 November 2022).
+</div>
+<div id="ref-cinahl2024plus" class="csl-entry" role="listitem">
+CINAHL Information Services (2024). '<em>CINAHL Plus, EBSCO</em>', Available at: <a href="https://web-p-ebscohost-com.manchester.idm.oclc.org/ehost/search/advanced?vid=0&amp;sid=ac38da5f-5abc-4be5-bb21-b551542bd67f%40redis">https://web-p-ebscohost-com.manchester.idm.oclc.org/ehost/search/advanced?vid=0&amp;sid=ac38da5f-5abc-4be5-bb21-b551542bd67f%40redis</a> (Accessed: 23 January 2024).
+</div>
+<div id="ref-dfid2009poverty" class="csl-entry" role="listitem">
+Department for International Development (2009). <em>Eliminating World Poverty</em>. Surrey, UK: Secretary of State for International Development. (Cm 7656). Available at: <a href="https://www.gov.uk/government/publications/eliminating-world-poverty-building-our-common-future">https://www.gov.uk/government/publications/eliminating-world-poverty-building-our-common-future</a> (Accessed: 12 June 2023).
+</div>
+<div id="ref-amado2018unbundling" class="csl-entry" role="listitem">
+Amado-Salvatierra, H. R., Rizzardini, R. H. and Chan, M. M. (2018). 'Unbundling Higher Education with Internationalization. Experiences from Two Hybrid Postgraduate Degrees Using MOOCs', Madrid, Spain. pp. 9–12. <a href="https://doi.org/10.1109/LWMOOCS.2018.8534684">https://doi.org/10.1109/LWMOOCS.2018.8534684.</a>
+</div>
+<div id="ref-discography1985smiths" class="csl-entry" role="listitem">
+The Smiths (1985). [Podcast].
+</div>
+<div id="ref-haddock2018leadership" class="csl-entry" role="listitem">
+Haddock-Fraser, J., Rands, P. and Scoffham, S. (2018). <em>Leadership for Sustainability in Higher Education</em>. London: Bloomsbury Publishing Plc. Available at: <a href="http://ebookcentral.proquest.com/lib/manchester/detail.action?docID=5394335">http://ebookcentral.proquest.com/lib/manchester/detail.action?docID=5394335</a> (Accessed: 03 June 2024).
+</div>
+<div id="ref-stringer1996oxford" class="csl-entry" role="listitem">
+Stringer, J. (1996). <em>The Oxford companion to twentieth-century literature in English</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-dontlookup2021film" class="csl-entry" role="listitem">
+(2021). 2021.
+</div>
+<div id="ref-summers2021ktp" class="csl-entry" role="listitem">
+Summers, J. (2021). <em>Knowledge transfer partnerships (KTP)</em>. Innovation Funding Service. Available at: <a href="https://apply-for-innovation-funding.service.gov.uk/application/10003582">https://apply-for-innovation-funding.service.gov.uk/application/10003582</a> (Accessed: 02 September 2024).
+</div>
+<div id="ref-nice2016preterm" class="csl-entry" role="listitem">
+National Institute for Clinical Excellence (2016). <em>Preterm labour and birth</em>. Available at: <a href="https://www.nice.org.uk/guidance/qs135/resources/preterm-labour-and-birth-pdf-75545420722117">https://www.nice.org.uk/guidance/qs135/resources/preterm-labour-and-birth-pdf-75545420722117</a> (Accessed: 25 May 2022).
+</div>
+<div id="ref-illustration2023figure" class="csl-entry" role="listitem">
+FIFA.com (2016). <em>Official mascot Zabivaka<sup>TM</sup></em>. [Photograph]. Available at: <a href="https://www.fifa.com/worldcup/organisation/mascot">https://www.fifa.com/worldcup/organisation/mascot</a> (Accessed: 20 June 2017).
+</div>
+<div id="ref-clientA2020interview" class="csl-entry" role="listitem">
+[Client A] (2020). editor &amp; translator 'Discussions about their care', Manchester.
+</div>
+<div id="ref-amis2001conversation" class="csl-entry" role="listitem">
+Amis, K. (2001). editor &amp; translator 'In conversation with... Kingsley Amis',.
+</div>
+<div id="ref-clough1974brian" class="csl-entry" role="listitem">
+Clough, B. (1974). editor &amp; translator 'Brian Clough', Available at: <a href="https://www.bbc.co.uk/iplayer/episode/p00ny04k/the-frost-interview-brian-clough">https://www.bbc.co.uk/iplayer/episode/p00ny04k/the-frost-interview-brian-clough</a> (Accessed: 18 January 2024).
+</div>
+<div id="ref-flora2024mltutorial" class="csl-entry" role="listitem">
+Flora, M. L., et al. (2024). 'A Machine Learning Explainability Tutorial for Atmospheric Sciences', <em><em>Artificial Intelligence for the Earth Systems</em>,</em> 3 (1), <a href="https://doi.org/10.1175/AIES-D-23-0018.1">https://doi.org/10.1175/AIES-D-23-0018.1.</a>
+</div>
+<div id="ref-tanzila2020lowImpact" class="csl-entry" role="listitem">
+Tanzila, R. A., Lindri, S. Y. and Putri, N. R. (2020). 'The Effect of Low Impact Aerobic Exercise on Elderly with Dementia Cognitive Function', <em><em>Global Medical &amp; Health Communication</em>,</em> 8 (1), pp. 73–77. <a href="https://doi.org/10.29313/gmhc.v8i1.5462">https://doi.org/10.29313/gmhc.v8i1.5462.</a>
+</div>
+<div id="ref-zakaria2000oilPollution" class="csl-entry" role="listitem">
+Zakaria, M. P., et al. (2000). 'Oil Pollution in the Straits of Malacca, Malaysia', <em><em>Environmental Science &amp; Technology</em>,</em> 34 (7), pp. 1189–1196. Available at: <a href="https://www.proquest.com/scholarly-journals/oil-pollution-straits-malacca-malaysia/docview/17659659/se-2">https://www.proquest.com/scholarly-journals/oil-pollution-straits-malacca-malaysia/docview/17659659/se-2</a> (Accessed: 21 March 2024).
+</div>
+<div id="ref-achten2024protocol" class="csl-entry" role="listitem">
+Achten, J., et al. (2024). 'Protocol for Surgery or Cast of the EpicoNdyle in Children’s Elbows (SCIENCE)', <em><em>Bone &amp; Joint Open</em>,</em> 5 (1), pp. 69–77. Available at: <a href="https://pubmed.ncbi.nlm.nih.gov/38269598/">https://pubmed.ncbi.nlm.nih.gov/38269598/</a> (Accessed: 25 January 2024).
+</div>
+<div id="ref-mandela2013longWalk" class="csl-entry" role="listitem">
+Mandela, N. (2013). <em>Long Walk to Freedom</em>. Kindle. Available at: <a href="https://www.amazon.co.uk/">https://www.amazon.co.uk/</a>.
+</div>
+<div id="ref-revenue2007smith" class="csl-entry" role="listitem">
+(2007). Available at: <a href="https://www.bailii.org/cgi-bin/format.cgi?doc=/ew/cases/EWHC/Ch/2007/488.html&amp;query=(ewhc)+AND+(2007)+AND+(488)">https://www.bailii.org/cgi-bin/format.cgi?doc=/ew/cases/EWHC/Ch/2007/488.html&amp;query=(ewhc)+AND+(2007)+AND+(488)</a> (Accessed: 18 May 2020).
+</div>
+<div id="ref-anderton2024mechanisedHandout" class="csl-entry" role="listitem">
+Anderton, L. (2024).
+</div>
+<div id="ref-booth2011radiographyHandout" class="csl-entry" role="listitem">
+Booth, L. (2011). Available at: <a href="https://mylearning.cumbria.ac.uk">https://mylearning.cumbria.ac.uk</a> (Accessed: 20 January 2023).
+</div>
+<div id="ref-salisbury1240commonSaints" class="csl-entry" role="listitem">
+Scriptorium of Salisbury Cathedral (1240–1260). <em>Common of Saints</em>. Sarum Missal [Manuscript]. At: At: University of Manchester, The John Rylands Research Institute and Library: Available at: <a href="https://www.digitalcollections.manchester.ac.uk/view/MS-LATIN-00024/393">https://www.digitalcollections.manchester.ac.uk/view/MS-LATIN-00024/393</a> (Accessed: 24 October 2024).
+</div>
+<div id="ref-ordnance2018uom" class="csl-entry" role="listitem">
+Ordinance Survey (2018). University of Manchester Library, Available at: <a href="https://osmaps.ordnancesurvey.co.uk/53.46459,-2.23480,18/pin">https://osmaps.ordnancesurvey.co.uk/53.46459,-2.23480,18/pin</a> (Accessed: 13 November 2018).
+</div>
+<div id="ref-googlemaps2018uomLibrary" class="csl-entry" role="listitem">
+Google Maps (2018a). University of Manchester Library, Available at: <a href="https://www.google.co.uk/maps/@53.4637019,-2.2363183,396m/data=!3m1!1e3">https://www.google.co.uk/maps/@53.4637019,-2.2363183,396m/data=!3m1!1e3</a> (Accessed: 13 November 2018).
+</div>
+<div id="ref-googlemaps2018johnRylands" class="csl-entry" role="listitem">
+Google Maps (2018b). The John Rylands Library, University of Manchester, Available at: <a href="https://www.google.com/maps/@53.4803048,-2.2483242,3a,75y,284.39h,110.31t/data=!3m6!1e1!3m4!1sxScudi5YHow8fS_FU3GPoA!2e0!7i13312!8i6656">https://www.google.com/maps/@53.4803048,-2.2483242,3a,75y,284.39h,110.31t/data=!3m6!1e1!3m4!1sxScudi5YHow8fS_FU3GPoA!2e0!7i13312!8i6656</a> (Accessed: 09 November 2020).
+</div>
+<div id="ref-naturalEngland2017woodland" class="csl-entry" role="listitem">
+Natural England (2017). Redlands, CA: Esri.
+</div>
+<div id="ref-generalMicrofilm1971pamphlets" class="csl-entry" role="listitem">
+General Microfilm Company (1971).
+</div>
+<div id="ref-gregory2023sixLifestyle" class="csl-entry" role="listitem">
+Gregory, A. (2023). 'Six lifestyle choices to slow memory decline named in 10-year study', <em>The Guardian</em>, 25 January. Available at: <a href="https://www.theguardian.com/science/2023/jan/25/six-lifestyle-choices-to-slow-memory-decline-named-in-10-year-study">https://www.theguardian.com/science/2023/jan/25/six-lifestyle-choices-to-slow-memory-decline-named-in-10-year-study</a> (Accessed: 25 September 2023).
+</div>
+<div id="ref-kruger1989starch" class="csl-entry" role="listitem">
+Kruger, L. H. (1989). <em>Degradation of granular starch</em>. Patent no. us4838944. Available at: <a href="https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/4838944">https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/4838944</a> (Accessed: 12 June 2023).
+</div>
+<div id="ref-melland1935backStreet" class="csl-entry" role="listitem">
+Melland, S. (1935). <em>Back Street, Manchester</em>. [Photograph]. Available at: <a href="https://artuk.org/discover/artworks/back-street-manchester-205576">https://artuk.org/discover/artworks/back-street-manchester-205576</a> (Accessed: 05 July 2024).
+</div>
+<div id="ref-andertione2024vistaPhoto" class="csl-entry" role="listitem">
+Andertione, L. (2024). <em>Vista de la mort</em>. [Photograph]. Available at: <a href="https://www.andertionephotography.fr">https://www.andertionephotography.fr</a> (Accessed: 07 February 2024).
+</div>
+<div id="ref-anderton2017mechanisedPresentation" class="csl-entry" role="listitem">
+Anderton, L. (2017).
+</div>
+<div id="ref-gsk2023sdgs" class="csl-entry" role="listitem">
+GSK (2023). <em>Our Contribution to the SDGs</em>. Available at: <a href="https://www.gsk.com/media/9976/our-contribution-to-the-sdgs.pdf">https://www.gsk.com/media/9976/our-contribution-to-the-sdgs.pdf</a> (Accessed: 13 October 2023).
+</div>
+<div id="ref-alumna2023prisoners" class="csl-entry" role="listitem">
+Alumna, U. (2023). <em>The determining factors in deciding which prisoners are at a high risk of developing long-term psychological conditions</em>. Unpublished essay,.
+</div>
+<div id="ref-uomlibrary2018gothic" class="csl-entry" role="listitem">
+The University of Manchester Library (2018). 2018. Available at: <a href="https://www.youtube.com/watch?v=SHaf6ZeJlP8&amp;t=0s&amp;list=PL5JZDOVO6NB9wdfu_uIQyzcu8r6f7ugc2&amp;index=4">https://www.youtube.com/watch?v=SHaf6ZeJlP8&amp;t=0s&amp;list=PL5JZDOVO6NB9wdfu_uIQyzcu8r6f7ugc2&amp;index=4</a> (Accessed: 15 November 2018).
+</div>
+<div id="ref-popcrave2023ken" class="csl-entry" role="listitem">
+Pop Crave (2023). <em>The #Barbie costume design team <span>“rushed to make”</span> Ryan Gosling his own Ken-branded underwear...</em> 2023:2023, 12 June Available at: <a href="https://twitter.com/PopCrave/status/1668384726347055104">https://twitter.com/PopCrave/status/1668384726347055104</a> (Accessed: 13 June 2023).
+</div>
+<div id="ref-openai2022gpt3" class="csl-entry" role="listitem">
+OpenAI (2022). <em>ChatGPT (version GPT3)</em>. Available at: <a href="https://openai.com/blog/chatgpt/">https://openai.com/blog/chatgpt/</a> (Accessed: 13 December 2022).
+</div>
+<div id="ref-kuti2023handHygiene" class="csl-entry" role="listitem">
+Kuti, B., et al. (2023). 'Hand hygiene for the prevention of infections in neonates', <em><em>Cochrane Database of Systematic Reviews</em>,</em> (6), <a href="https://doi.org/10.1002/14651858.CD013326.pub4">https://doi.org/10.1002/14651858.CD013326.pub4.</a>
+</div>
+<div id="ref-techreport1987mm4" class="csl-entry" role="listitem">
+Anthes, R. A., Hsie, E.-Y. and Kuo, Y.-H. (1987). <em>Description of the Penn State/NCAR mesoscale model version 4 (MM4)</em>. Boulder, CO: University Corporation for Atmospheric Research. (NCAR/TN–293+STR). <a href="https://doi.org/10.5065/D64B2Z90">https://doi.org/10.5065/D64B2Z90.</a>
+</div>
+<div id="ref-gannon1978seaBreeze" class="csl-entry" role="listitem">
+Gannon, P. T. (1978). <em>Influence of earth surface and cloud properties on the South Florida sea breeze</em>. Boulder, CO: National Oceanic and Atmospheric Administration, Environmental Research Laboratories. (iv, 91 p.). Available at: <a href="https://catalog.hathitrust.org/Record/012206801">https://catalog.hathitrust.org/Record/012206801</a> (Accessed: 12 December 2022).
+</div>
+<div id="ref-regentsPark2015seagull" class="csl-entry" role="listitem">
+Regent’s Park Open Air Theatre (2015).
+</div>
+<div id="ref-theatre2023mousetrap" class="csl-entry" role="listitem">
+St. Martin’s Theatre Company (2023). Available at: <a href="https://uk.the-mousetrap.co.uk/">https://uk.the-mousetrap.co.uk/</a>.
+</div>
+<div id="ref-marsh2015spotlight" class="csl-entry" role="listitem">
+Marsh (2015).
+</div>
+<div id="ref-doody2001severedHeads" class="csl-entry" role="listitem">
+Doody, N. (2001). <em>Severed heads</em>. unpublished doctoral thesis, Available at: <a href="https://www-proquest-com.manchester.idm.oclc.org/dissertations-theses/severed-heads-influence-oscar-wilde-on-w-b-yeats/docview/301554606/se-2">https://www-proquest-com.manchester.idm.oclc.org/dissertations-theses/severed-heads-influence-oscar-wilde-on-w-b-yeats/docview/301554606/se-2</a> (Accessed: 10 July 2023).
+</div>
+<div id="ref-smith2014learningDevelopers" class="csl-entry" role="listitem">
+Smith, G. (2014). <em>How Learning Developers support the development of Information Literacy in HE institutions</em>. [Manuscript]. At: Unpublished: Internal document. Available at: <a href="https://arxiv.org/abs/2410.51423v3">https://arxiv.org/abs/2410.51423v3</a> (Accessed: 21 January 2024).
+</div>
+<div id="ref-mann2020coinfection" class="csl-entry" role="listitem">
+Mann, P., et al. (2020). <em>Cooperative coinfection dynamics on clustered networks</em>. [Manuscript]. At: Unpublished: Preprint. Available at: <a href="https://arxiv.org/abs/2012.09457">https://arxiv.org/abs/2012.09457</a> (Accessed: 13 June 2023).
+</div>
+<div id="ref-unitedNations2023goals" class="csl-entry" role="listitem">
+United Nations (2023). <em>The 17 goals</em>. Available at: <a href="https://sdgs.un.org/goals">https://sdgs.un.org/goals</a> (Accessed: 07 September 2023).
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

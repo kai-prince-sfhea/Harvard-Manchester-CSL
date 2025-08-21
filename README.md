@@ -37,7 +37,7 @@ You can see the render output of the CSL in index.html within the _site folder.
   - [x] Get citation prefixes and suffixes working.
   - [x] Merge single citation of multiple authors supporting the same argument with year-author ordering.
   - [x] Get disambiguation of multiple authors with the same surname working.
-  - [ ] Have citations with no author use the title of the work italicised.
-  - [ ] Get no parenthesis citations working (this may not be possible).
+  - [x] Have citations with no author use the title of the work italicised.
+  - [x] Get no parenthesis citations working (I've created an additional-citation-options Quarto extension to do this).
 - [ ] Get the reference citations working in Quarto.
 - [ ] Get the style working in Zotero and Mendeley.

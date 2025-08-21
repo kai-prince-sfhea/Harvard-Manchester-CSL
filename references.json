@@ -1,0 +1,828 @@
+[
+  {
+    "id": "bergelson_1996",
+    "type": "chapter",
+    "title": "Ergodic Ramsey Theory - an Update",
+    "container-title": "Ergodic Theory and Z^d Actions",
+    "collection-title": "London Mathematical Society Lecture Note Series",
+    "page": "1-62",
+    "DOI": "10.1017/CBO9780511662812.002",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "author": [{"family": "Bergelson", "given": "V."}],
+    "editor": [
+      {"family": "Pollicott", "given": "Mark"},
+      {"family": "Schmidt", "given": "Klaus"}
+    ],
+    "issued": {"date-parts": [[1996]]}
+  },
+  {
+    "id": "Bekka2000GroupActionDynamics",
+    "type": "book",
+    "title": "Ergodic theory and topological dynamics of group actions on homogeneous spaces",
+    "publisher": "Cambridge University Press",
+    "author": [
+      {"family": "Bekka", "given": "M. B."},
+      {"family": "Mayer", "given": "M."}
+    ],
+    "issued": {"date-parts": [[2000]]},
+    "DOI": "10.1017/cbo9780511758898"
+  },
+  {
+    "id": "Moreira_2019",
+    "type": "article-journal",
+    "title": "A proof of a sumset conjecture of Erdős",
+    "volume": "189",
+    "issue": "2",
+    "DOI": "10.4007/annals.2019.189.2.4",
+    "URL": "http://dx.doi.org/10.4007/annals.2019.189.2.4",
+    "container-title": "Annals of Mathematics",
+    "publisher": "Annals of Mathematics",
+    "author": [
+      {"family": "Moreira", "given": "Joel"},
+      {"family": "Richter", "given": "Florian K."},
+      {"family": "Robertson", "given": "Donald"}
+    ],
+    "issued": {"date-parts": [[2019,3]]}
+  },
+  {
+    "id": "kra2023problems",
+    "type": "manuscript",
+    "title": "Problems on infinite sumset configurations in the integers and beyond",
+    "author": [
+      {"family": "Kra", "given": "Bryna"},
+      {"family": "Moreira", "given": "Joel"},
+      {"family": "Richter", "given": "Florian K."},
+      {"family": "Robertson", "given": "Donald"}
+    ],
+    "archive": "arXiv",
+    "genre": "preprint",
+    "issued": {"date-parts": [[2023]]}
+  },
+  {
+    "id": "booknd",
+    "type": "book",
+    "title": "Some Unpublished Book",
+    "author": [{"family": "Smith", "given": "John"}]
+  },
+  {
+    "id": "kra2022infinite",
+    "type": "manuscript",
+    "title": "Infinite Sumsets in Sets with Positive Density",
+    "author": [
+      {"family": "Kra", "given": "Bryna"},
+      {"family": "Moreira", "given": "Joel"},
+      {"family": "Richter", "given": "Florian K."},
+      {"family": "Robertson", "given": "Donald"}
+    ],
+    "archive": "arXiv",
+    "genre": "preprint",
+    "issued": {"date-parts": [[2022]]}
+  },
+  {
+    "id": "kra2022proof",
+    "type": "manuscript",
+    "title": "A proof of Erdős's B+B+t conjecture",
+    "author": [
+      {"family": "Kra", "given": "Bryna"},
+      {"family": "Moreira", "given": "Joel"},
+      {"family": "Richter", "given": "Florian K."},
+      {"family": "Robertson", "given": "Donald"}
+    ],
+    "archive": "arXiv",
+    "genre": "preprint",
+    "issued": {"date-parts": [[2022]]}
+  },
+  {
+    "id": "prince2022",
+    "type": "thesis",
+    "title": "Some Mathematics Dissertation",
+    "publisher": "University of Manchester",
+    "genre": "Unpublished MMath thesis",
+    "publisher-place": "Manchester",
+    "author": [{"family": "Prince", "given": "Kai"}],
+    "issued": {"date-parts": [[2022]]}
+  },
+  {
+    "id": "prince2024",
+    "type": "thesis",
+    "title": "Some Psychology Dissertation",
+    "publisher": "University of Bath Spa",
+    "genre": "Unpublished BSc thesis",
+    "publisher-place": "Bath",
+    "author": [{"family": "Prince", "given": "Leon"}],
+    "issued": {"date-parts": [[2024]]}
+  },
+  {
+    "id": "prince2026",
+    "type": "thesis",
+    "title": "Some Primary Education Dissertation",
+    "publisher": "University of Sussex",
+    "genre": "Unpublished BA thesis",
+    "publisher-place": "Brighton",
+    "author": [{"family": "Prince", "given": "Kira"}],
+    "issued": {"date-parts": [[2026]]}
+  },
+  {
+    "id": "illustration2023figure",
+    "type": "graphic",
+    "title": "Official mascot Zabivaka™",
+    "author": [{"literal": "FIFA.com"}],
+    "issued": {"date-parts": [[2016]]},
+    "URL": "https://www.fifa.com/worldcup/organisation/mascot",
+    "accessed": {"date-parts": [[2017,6,20]]},
+    "genre": "illustration"
+  },
+  {
+    "id": "techreport1987mm4",
+    "type": "report",
+    "title": "Description of the Penn State/NCAR mesoscale model version 4 (MM4)",
+    "number": "NCAR/TN-293+STR",
+    "publisher": "University Corporation for Atmospheric Research",
+    "publisher-place": "Boulder, CO",
+    "page": "66",
+    "DOI": "10.5065/D64B2Z90",
+    "author": [
+      {"family": "Anthes", "given": "Richard A."},
+      {"family": "Hsie", "given": "Edward-Yuh"},
+      {"family": "Kuo", "given": "Yen-Hui"}
+    ],
+    "issued": {"date-parts": [[1987]]}
+  },
+  {
+    "id": "theatre2023mousetrap",
+    "type": "document",
+    "title": "The Mousetrap",
+    "author": [{"literal": "St. Martin's Theatre Company"}],
+    "issued": {"date-parts": [[2023,9,18]]},
+    "genre": "Theatre programme",
+    "publisher-place": "London",
+    "URL": "https://uk.the-mousetrap.co.uk/"
+  },
+  {
+    "id": "discography1985smiths",
+    "type": "song",
+    "title": "How Soon Is Now?",
+    "container-title": "Hatful of Hollow",
+    "author": [{"literal": "The Smiths"}],
+    "issued": {"date-parts": [[1985]]},
+    "publisher": "Rough Trade",
+    "publisher-place": "London",
+    "genre": "record"
+  },
+  {
+    "id": "haddock2018leadership",
+    "type": "book",
+    "title": "Leadership for Sustainability in Higher Education",
+    "author": [
+      {"family": "Haddock-Fraser", "given": "Janet"},
+      {"family": "Rands", "given": "Peter"},
+      {"family": "Scoffham", "given": "Stephen"}
+    ],
+    "issued": {"date-parts": [[2018]]},
+    "publisher": "Bloomsbury Publishing Plc",
+    "publisher-place": "London",
+    "URL": "http://ebookcentral.proquest.com/lib/manchester/detail.action?docID=5394335",
+    "accessed": {"date-parts": [[2024,6,3]]}
+  },
+  {
+    "id": "environmentAct2021",
+    "type": "legislation",
+    "title": "Environment Act 2021",
+    "URL": "https://bills.parliament.uk/bills/2593",
+    "accessed": {"date-parts": [[2023,9,15]]}
+  },
+  {
+    "id": "blog2019endnote",
+    "type": "post-weblog",
+    "title": "Getting started with EndNote desktop",
+    "author": [{"family": "Specialist Library Support"}],
+    "issued": {"date-parts": [[2019]]},
+    "note": "Referencing Support, 05 August 2019",
+    "URL": "https://medium.com/specialist-library-support/endnote-desktop-getting-started-e199b1f9e525",
+    "accessed": {"date-parts": [[2024,11,16]]}
+  },
+  {
+    "id": "baskett2006horse",
+    "type": "book",
+    "title": "The horse in art",
+    "author": [{"family": "Baskett", "given": "Jeremy"}],
+    "issued": {"date-parts": [[2006]]},
+    "publisher": "Yale University Press",
+    "publisher-place": "New Haven, Connecticut"
+  },
+  {
+    "id": "haniff2016projectManagement",
+    "type": "book",
+    "title": "Project Management",
+    "collection-title": "Global Management Series",
+    "author": [
+      {"family": "Haniff", "given": "A. P."},
+      {"family": "Salama", "given": "M."}
+    ],
+    "issued": {"date-parts": [[2016]]},
+    "publisher": "Goodfellow Publishers, Limited",
+    "publisher-place": "Oxford"
+  },
+  {
+    "id": "delibes2013path",
+    "type": "book",
+    "title": "The Path",
+    "author": [{"family": "Delibes", "given": "Miguel"}],
+    "translator": [
+      {"family": "Haycraft", "given": "G."},
+      {"family": "Haycraft", "given": "R."}
+    ],
+    "issued": {"date-parts": [[2013]]},
+    "publisher": "Dolphin Books",
+    "publisher-place": "London"
+  },
+  {
+    "id": "heidegger1962beingTime",
+    "type": "book",
+    "title": "Being and time",
+    "author": [{"family": "Heidegger", "given": "Martin"}],
+    "translator": [
+      {"family": "Macquarrie", "given": "J."},
+      {"family": "Robinson", "given": "E."}
+    ],
+    "edition": "7",
+    "issued": {"date-parts": [[1962]]},
+    "publisher": "Harper and Row",
+    "publisher-place": "New York"
+  },
+  {
+    "id": "bsi2014yachts",
+    "type": "standard",
+    "title": "BS ISO 14886",
+    "subtitle": "Ships and marine technology. Large yachts. Structural fire protection for FRP yachts",
+    "author": [{"literal": "British Standards Institution"}],
+    "issued": {"date-parts": [[2014]]},
+    "publisher": "British Standards Institution",
+    "publisher-place": "London",
+    "URL": "https://www.iso.org/standard/55260.html",
+    "accessed": {"date-parts": [[2023,6,12]]},
+    "genre": "Seagoing vessels"
+  },
+  {
+    "id": "wisker2016femaleVampirism",
+    "type": "chapter",
+    "title": "Female Vampirism",
+    "container-title": "Women and the Gothic: An Edinburgh Companion",
+    "author": [{"family": "Wisker", "given": "Gina"}],
+    "editor": [
+      {"family": "Horner", "given": "Avril"},
+      {"family": "Zlosnik", "given": "Sue"}
+    ],
+    "issued": {"date-parts": [[2016]]},
+    "page": "150-165",
+    "publisher": "Edinburgh University Press",
+    "publisher-place": "Edinburgh"
+  },
+  {
+    "id": "bloomberg2022professional",
+    "type": "database",
+    "title": "Bloomberg Professional",
+    "author": [{"literal": "Bloomberg"}],
+    "issued": {"date-parts": [[2022]]},
+    "note": "Subscription service",
+    "accessed": {"date-parts": [[2022,11,30]]}
+  },
+  {
+    "id": "crsp2022merged",
+    "type": "database",
+    "title": "CRSP/Compustat Merged Database",
+    "author": [{"literal": "CRSP/Compustat Merged"}],
+    "issued": {"date-parts": [[2022]]},
+    "publisher": "Center for Research in Security Prices",
+    "institution": "WRDS",
+    "URL": "https://www.crsp.org/research/crsp-compustat-merged-database/",
+    "accessed": {"date-parts": [[2022,11,14]]}
+  },
+  {
+    "id": "fame2022database",
+    "type": "database",
+    "title": "Fame",
+    "issued": {"date-parts": [[2022]]},
+    "note": "Bureau van Dijk",
+    "URL": "https://fame2.bvdep.com/",
+    "accessed": {"date-parts": [[2022,11,19]]}
+  },
+  {
+    "id": "cinahl2024plus",
+    "type": "database",
+    "title": "CINAHL Plus, EBSCO",
+    "author": [{"literal": "CINAHL Information Services"}],
+    "issued": {"date-parts": [[2024]]},
+    "URL": "https://web-p-ebscohost-com.manchester.idm.oclc.org/ehost/search/advanced?vid=0&sid=ac38da5f-5abc-4be5-bb21-b551542bd67f%40redis",
+    "accessed": {"date-parts": [[2024,1,23]]}
+  },
+  {
+    "id": "dfid2009poverty",
+    "type": "report",
+    "title": "Eliminating World Poverty",
+    "subtitle": "Building our Common Future",
+    "author": [{"literal": "Department for International Development"}],
+    "genre": "White Paper",
+    "number": "Cm 7656",
+    "issued": {"date-parts": [[2009]]},
+    "publisher": "Secretary of State for International Development",
+    "publisher-place": "Surrey, UK",
+    "URL": "https://www.gov.uk/government/publications/eliminating-world-poverty-building-our-common-future",
+    "accessed": {"date-parts": [[2023,6,12]]}
+  },
+  {
+    "id": "amado2018unbundling",
+    "type": "paper-conference",
+    "title": "Unbundling Higher Education with Internationalization. Experiences from Two Hybrid Postgraduate Degrees Using MOOCs",
+    "author": [
+      {"family": "Amado-Salvatierra", "given": "Hector R."},
+      {"family": "Rizzardini", "given": "Rocael Hernández"},
+      {"family": "Chan", "given": "Miguel Morales"}
+    ],
+    "container-title": "Proceedings of 2018 Learning With MOOCS (IEEE LWMOOCS): MOOCS For All - a Social and International Approach",
+    "publisher-place": "Madrid, Spain",
+    "page": "9-12",
+    "issued": {"date-parts": [[2018]]},
+    "DOI": "10.1109/LWMOOCS.2018.8534684",
+    "note": "26-28 September 2018"
+  },
+  {
+    "id": "dontlookup2021film",
+    "type": "motion_picture",
+    "title": "Don't Look Up.",
+    "issued": {"date-parts": [[2021]]},
+    "publisher": "Netflix",
+    "publisher-place": "United States of America",
+    "note": "Directed by McKay, A."
+  },
+  {
+    "id": "summers2021ktp",
+    "type": "report",
+    "title": "Knowledge transfer partnerships (KTP)",
+    "subtitle": "2021 to 2022, round 1 - Innovation area: Biosciences",
+    "author": [{"family": "Summers", "given": "J."}],
+    "issued": {"date-parts": [[2021]]},
+    "page": "1-32",
+    "publisher": "Innovation Funding Service",
+    "note": "24 months",
+    "URL": "https://apply-for-innovation-funding.service.gov.uk/application/10003582",
+    "accessed": {"date-parts": [[2024,9,2]]}
+  },
+  {
+    "id": "nice2016preterm",
+    "type": "report",
+    "title": "Preterm labour and birth",
+    "number": "QS135",
+    "author": [{"literal": "National Institute for Clinical Excellence"}],
+    "issued": {"date-parts": [[2016]]},
+    "URL": "https://www.nice.org.uk/guidance/qs135/resources/preterm-labour-and-birth-pdf-75545420722117",
+    "accessed": {"date-parts": [[2022,5,25]]}
+  },
+  {
+    "id": "clientA2020interview",
+    "type": "interview",
+    "title": "Discussions about their care",
+    "author": [{"literal": "[Client A]"}],
+    "issued": {"date-parts": [[2020]]},
+    "genre": "interview",
+    "publisher-place": "Manchester"
+  },
+  {
+    "id": "amis2001conversation",
+    "type": "interview",
+    "title": "In conversation with... Kingsley Amis",
+    "author": [{"family": "Amis", "given": "K."}],
+    "issued": {"date-parts": [[2001]]},
+    "note": "Interview with Amis, K. Interviewed by Self, W. for The Independent",
+    "page": "73"
+  },
+  {
+    "id": "clough1974brian",
+    "type": "interview",
+    "title": "Brian Clough",
+    "author": [{"family": "Clough", "given": "B."}],
+    "issued": {"date-parts": [[1974,11,13]]},
+    "note": "Interview with Clough, B. Interviewed by Frost, D. for The Frost Interview, BBC Television",
+    "URL": "https://www.bbc.co.uk/iplayer/episode/p00ny04k/the-frost-interview-brian-clough",
+    "accessed": {"date-parts": [[2024,1,18]]}
+  },
+  {
+    "id": "flora2024mltutorial",
+    "type": "article-journal",
+    "title": "A Machine Learning Explainability Tutorial for Atmospheric Sciences",
+    "container-title": "Artificial Intelligence for the Earth Systems",
+    "author": [
+      {"family": "Flora", "given": "Montgomery L."},
+      {"family": "Potvin", "given": "Corey K."},
+      {"family": "McGovern", "given": "Amy"},
+      {"family": "Handler", "given": "Shawn"}
+    ],
+    "volume": "3",
+    "issue": "1",
+    "issued": {"date-parts": [[2024]]},
+    "note": "e230018",
+    "DOI": "10.1175/AIES-D-23-0018.1"
+  },
+  {
+    "id": "tanzila2020lowImpact",
+    "type": "article-journal",
+    "title": "The Effect of Low Impact Aerobic Exercise on Elderly with Dementia Cognitive Function",
+    "container-title": "Global Medical & Health Communication",
+    "author": [
+      {"family": "Tanzila", "given": "Raden Ayu"},
+      {"family": "Lindri", "given": "Sheilla Yonaka"},
+      {"family": "Putri", "given": "Nindia Rahma"}
+    ],
+    "volume": "8",
+    "issue": "1",
+    "page": "73-77",
+    "issued": {"date-parts": [[2020]]},
+    "DOI": "10.29313/gmhc.v8i1.5462"
+  },
+  {
+    "id": "zakaria2000oilPollution",
+    "type": "article-journal",
+    "title": "Oil Pollution in the Straits of Malacca, Malaysia",
+    "subtitle": "Application of Molecular Markers for Source Identification",
+    "container-title": "Environmental Science & Technology",
+    "author": [
+      {"family": "Zakaria", "given": "M. P."},
+      {"family": "Horinouchi", "given": "Ai"},
+      {"family": "Tsutsumi", "given": "Shinobu"},
+      {"family": "Takada", "given": "Hideshige"},
+      {"family": "Tanabe", "given": "Shinsuke"}
+    ],
+    "volume": "34",
+    "issue": "7",
+    "page": "1189-1196",
+    "issued": {"date-parts": [[2000]]},
+    "URL": "https://www.proquest.com/scholarly-journals/oil-pollution-straits-malacca-malaysia/docview/17659659/se-2",
+    "accessed": {"date-parts": [[2024,3,21]]}
+  },
+  {
+    "id": "achten2024protocol",
+    "type": "article-journal",
+    "title": "Protocol for Surgery or Cast of the EpicoNdyle in Children's Elbows (SCIENCE)",
+    "container-title": "Bone & Joint Open",
+    "author": [
+      {"family": "Achten", "given": "Juul"},
+      {"family": "Appelbe", "given": "Duncan"},
+      {"family": "Spoors", "given": "Louise"},
+      {"family": "Peckham", "given": "Nicholas"},
+      {"family": "Kandiyali", "given": "Rebecca"},
+      {"family": "Mason", "given": "James"},
+      {"family": "Ferguson", "given": "David"},
+      {"family": "Wright", "given": "James"},
+      {"family": "Wilson", "given": "Nicola"},
+      {"family": "Preston", "given": "Jennifer"},
+      {"family": "Moscrop", "given": "Amy"},
+      {"family": "Costa", "given": "Matthew"},
+      {"family": "Perry", "given": "Daniel C"}
+    ],
+    "volume": "5",
+    "issue": "1",
+    "page": "69-77",
+    "issued": {"date-parts": [[2024]]},
+    "note": "NLM [Preprint]",
+    "URL": "https://pubmed.ncbi.nlm.nih.gov/38269598/",
+    "accessed": {"date-parts": [[2024,1,25]]}
+  },
+  {
+    "id": "mandela2013longWalk",
+    "type": "book",
+    "title": "Long Walk to Freedom",
+    "subtitle": "Abacus 40th Anniversary edition",
+    "author": [{"family": "Mandela", "given": "Nelson"}],
+    "issued": {"date-parts": [[2013]]},
+    "publisher": "Kindle",
+    "URL": "https://www.amazon.co.uk/"
+  },
+  {
+    "id": "revenue2007smith",
+    "type": "legal_case",
+    "title": "Revenue and Customs v. Smith",
+    "issued": {"date-parts": [[2007]]},
+    "volume": "Case: CH/2006/APP/0767",
+    "publisher": "BAILII",
+    "note": "Royal Courts of Justice",
+    "URL": "https://www.bailii.org/cgi-bin/format.cgi?doc=/ew/cases/EWHC/Ch/2007/488.html&query=(ewhc)+AND+(2007)+AND+(488)",
+    "accessed": {"date-parts": [[2020,5,18]]}
+  },
+  {
+    "id": "anderton2024mechanisedHandout",
+    "type": "document",
+    "title": "The rise and fall of the mechanised world",
+    "author": [{"family": "Anderton", "given": "L."}],
+    "issued": {"date-parts": [[2024]]},
+    "genre": "lecturer handout",
+    "collection-title": "MECH66569: Reinventing Mechanisation",
+    "publisher": "University of Manchester",
+    "publisher-place": "Unpublished"
+  },
+  {
+    "id": "booth2011radiographyHandout",
+    "type": "document",
+    "title": "History of radiography",
+    "author": [{"family": "Booth", "given": "L."}],
+    "issued": {"date-parts": [[2011]]},
+    "genre": "PowerPoint presentation",
+    "collection-title": "MISR4004: Patient care skills: an introduction to human sciences",
+    "institution": "University of Cumbria",
+    "URL": "https://mylearning.cumbria.ac.uk",
+    "accessed": {"date-parts": [[2023,1,20]]},
+    "publisher": "Unpublished"
+  },
+  {
+    "id": "salisbury1240commonSaints",
+    "type": "manuscript",
+    "title": "Common of Saints",
+    "collection-title": "Sarum Missal",
+    "author": [{"literal": "Scriptorium of Salisbury Cathedral"}],
+    "issued": {"raw": "1240–1260"},
+    "publisher-place": "At: University of Manchester, The John Rylands Research Institute and Library",
+    "volume": "Latin MS 24. 157r",
+    "URL": "https://www.digitalcollections.manchester.ac.uk/view/MS-LATIN-00024/393",
+    "accessed": {"date-parts": [[2024,10,24]]}
+  },
+  {
+    "id": "ordnance2018uom",
+    "type": "map",
+    "title": "University of Manchester Library",
+    "author": [{"literal": "Ordinance Survey"}],
+    "issued": {"date-parts": [[2018]]},
+    "volume": "SJ 84509 96452 1:25 000",
+    "URL": "https://osmaps.ordnancesurvey.co.uk/53.46459,-2.23480,18/pin",
+    "accessed": {"date-parts": [[2018,11,13]]}
+  },
+  {
+    "id": "googlemaps2018uomLibrary",
+    "type": "map",
+    "title": "University of Manchester Library",
+    "author": [{"literal": "Google Maps"}],
+    "issued": {"date-parts": [[2018]]},
+    "URL": "https://www.google.co.uk/maps/@53.4637019,-2.2363183,396m/data=!3m1!1e3",
+    "accessed": {"date-parts": [[2018,11,13]]}
+  },
+  {
+    "id": "googlemaps2018johnRylands",
+    "type": "map",
+    "title": "The John Rylands Library, University of Manchester",
+    "author": [{"literal": "Google Maps"}],
+    "issued": {"date-parts": [[2018]]},
+    "URL": "https://www.google.com/maps/@53.4803048,-2.2483242,3a,75y,284.39h,110.31t/data=!3m6!1e1!3m4!1sxScudi5YHow8fS_FU3GPoA!2e0!7i13312!8i6656",
+    "accessed": {"date-parts": [[2020,11,9]]}
+  },
+  {
+    "id": "naturalEngland2017woodland",
+    "type": "map",
+    "title": "Map of deciduous woodland in North Yorkshire",
+    "author": [{"literal": "Natural England"}],
+    "issued": {"date-parts": [[2017]]},
+    "note": "Scale 1cm = 1km; Deciduous woodland BAP priority habitat (England) datafile",
+    "publisher": "Esri",
+    "publisher-place": "Redlands, CA"
+  },
+  {
+    "id": "generalMicrofilm1971pamphlets",
+    "type": "document",
+    "title": "French Revolutionary pamphlets",
+    "author": [{"literal": "General Microfilm Company"}],
+    "issued": {"date-parts": [[1971]]},
+    "genre": "Microfiche",
+    "publisher": "Watertown Publishing",
+    "publisher-place": "Massachusetts"
+  },
+  {
+    "id": "gregory2023sixLifestyle",
+    "type": "article-newspaper",
+    "title": "Six lifestyle choices to slow memory decline named in 10-year study",
+    "author": [{"family": "Gregory", "given": "A."}],
+    "issued": {"date-parts": [[2023,1,25]]},
+    "container-title": "The Guardian",
+    "URL": "https://www.theguardian.com/science/2023/jan/25/six-lifestyle-choices-to-slow-memory-decline-named-in-10-year-study",
+    "accessed": {"date-parts": [[2023,9,25]]}
+  },
+  {
+    "id": "kruger1989starch",
+    "type": "patent",
+    "title": "Degradation of granular starch",
+    "author": [{"family": "Kruger", "given": "L. H."}],
+    "issued": {"date-parts": [[1989]]},
+    "number": "us4838944",
+    "URL": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/4838944",
+    "accessed": {"date-parts": [[2023,6,12]]}
+  },
+  {
+    "id": "melland1935backStreet",
+    "type": "graphic",
+    "title": "Back Street, Manchester",
+    "author": [{"family": "Melland", "given": "S."}],
+    "issued": {"date-parts": [[1935]]},
+    "URL": "https://artuk.org/discover/artworks/back-street-manchester-205576",
+    "accessed": {"date-parts": [[2024,7,5]]},
+    "genre": "photograph"
+  },
+  {
+    "id": "andertione2024vistaPhoto",
+    "type": "graphic",
+    "title": "Vista de la mort",
+    "author": [{"family": "Andertione", "given": "L."}],
+    "issued": {"date-parts": [[2024]]},
+    "URL": "https://www.andertionephotography.fr",
+    "accessed": {"date-parts": [[2024,2,7]]},
+    "genre": "photograph"
+  },
+  {
+    "id": "bbcWorldService2019spaceStations",
+    "type": "broadcast",
+    "title": "Do we need more space stations?",
+    "author": [{"literal": "BBC World Service"}],
+    "issued": {"date-parts": [[2019,6,2]]},
+    "genre": "podcast",
+    "URL": "https://www.bbc.co.uk/sounds/play/w3csz1td",
+    "accessed": {"date-parts": [[2019,9,2]]}
+  },
+  {
+    "id": "anderton2017mechanisedPresentation",
+    "type": "document",
+    "title": "The rise and fall of the mechanised world",
+    "author": [{"family": "Anderton", "given": "L."}],
+    "issued": {"date-parts": [[2017]]},
+    "genre": "PowerPoint presentation",
+    "collection-title": "MECH66569: Reinventing Mechanisation",
+    "institution": "University of Manchester",
+    "publisher-place": "Unpublished"
+  },
+  {
+    "id": "gsk2023sdgs",
+    "type": "report",
+    "title": "Our Contribution to the SDGs",
+    "author": [{"literal": "GSK"}],
+    "issued": {"date-parts": [[2023]]},
+    "URL": "https://www.gsk.com/media/9976/our-contribution-to-the-sdgs.pdf",
+    "accessed": {"date-parts": [[2023,10,13]]}
+  },
+  {
+    "id": "alumna2023prisoners",
+    "type": "thesis",
+    "title": "The determining factors in deciding which prisoners are at a high risk of developing long-term psychological conditions",
+    "author": [{"family": "Alumna", "given": "U."}],
+    "issued": {"date-parts": [[2023]]},
+    "institution": "University of Manchester",
+    "genre": "Unpublished essay"
+  },
+  {
+    "id": "uomlibrary2018gothic",
+    "type": "motion_picture",
+    "title": "Darkness and Light",
+    "subtitle": "Exploring the Gothic",
+    "author": [{"literal": "The University of Manchester Library"}],
+    "issued": {"date-parts": [[2018]]},
+    "genre": "YouTube",
+    "URL": "https://www.youtube.com/watch?v=SHaf6ZeJlP8&t=0s&list=PL5JZDOVO6NB9wdfu_uIQyzcu8r6f7ugc2&index=4",
+    "accessed": {"date-parts": [[2018,11,15]]}
+  },
+  {
+    "id": "popcrave2023ken",
+    "type": "post",
+    "title": "The #Barbie costume design team “rushed to make” Ryan Gosling his own Ken-branded underwear...",
+    "author": [{"literal": "Pop Crave"}],
+    "issued": {"date-parts": [[2023,6,12]]},
+    "genre": "Twitter",
+    "note": "11:28 pm",
+    "URL": "https://twitter.com/PopCrave/status/1668384726347055104",
+    "accessed": {"date-parts": [[2023,6,13]]}
+  },
+  {
+    "id": "openai2022gpt3",
+    "type": "software",
+    "title": "ChatGPT (version GPT3)",
+    "author": [{"literal": "OpenAI"}],
+    "issued": {"date-parts": [[2022]]},
+    "genre": "computer programme",
+    "URL": "https://openai.com/blog/chatgpt/",
+    "accessed": {"date-parts": [[2022,12,13]]}
+  },
+  {
+    "id": "kuti2023handHygiene",
+    "type": "article-journal",
+    "title": "Hand hygiene for the prevention of infections in neonates",
+    "container-title": "Cochrane Database of Systematic Reviews",
+    "author": [
+      {"family": "Kuti", "given": "BP"},
+      {"family": "Ogunlesi", "given": "TA"},
+      {"family": "Oduwole", "given": "O"},
+      {"family": "Oringanje", "given": "CCMO"},
+      {"family": "Udoh", "given": "EE"},
+      {"family": "Bello", "given": "S"},
+      {"family": "Horn", "given": "D"},
+      {"family": "Meremikwu", "given": "MM"}
+    ],
+    "issue": "6",
+    "issued": {"date-parts": [[2023]]},
+    "note": "CD013326; Systematic Review",
+    "DOI": "10.1002/14651858.CD013326.pub4"
+  },
+  {
+    "id": "gannon1978seaBreeze",
+    "type": "report",
+    "title": "Influence of earth surface and cloud properties on the South Florida sea breeze",
+    "author": [{"family": "Gannon", "given": "P. T."}],
+    "issued": {"date-parts": [[1978]]},
+    "publisher": "National Oceanic and Atmospheric Administration, Environmental Research Laboratories",
+    "publisher-place": "Boulder, CO",
+    "number": "iv, 91 p.",
+    "URL": "https://catalog.hathitrust.org/Record/012206801",
+    "accessed": {"date-parts": [[2022,12,12]]}
+  },
+  {
+    "id": "regentsPark2015seagull",
+    "type": "document",
+    "title": "The Seagull",
+    "author": [{"literal": "Regent's Park Open Air Theatre"}],
+    "issued": {"date-parts": [[2015,5,12]]},
+    "genre": "Theatre programme",
+    "publisher-place": "London"
+  },
+  {
+    "id": "marsh2015spotlight",
+    "type": "document",
+    "title": "Spotlight on the author",
+    "author": [{"family": "Marsh", "given": ""}],
+    "issued": {"date-parts": [[2015,5,12]]},
+    "container-title": "The Seagull",
+    "editor": [{"literal": "Regent's Park Open Air Theatre"}],
+    "genre": "Theatre programme",
+    "publisher-place": "London",
+    "page": "17"
+  },
+  {
+    "id": "doody2001severedHeads",
+    "type": "thesis",
+    "title": "Severed heads",
+    "subtitle": "the influence of Oscar Wilde on W. B. Yeats",
+    "author": [{"family": "Doody", "given": "N."}],
+    "issued": {"date-parts": [[2001]]},
+    "genre": "unpublished doctoral thesis",
+    "institution": "Trinity College, Dublin",
+    "URL": "https://www-proquest-com.manchester.idm.oclc.org/dissertations-theses/severed-heads-influence-oscar-wilde-on-w-b-yeats/docview/301554606/se-2",
+    "accessed": {"date-parts": [[2023,7,10]]}
+  },
+  {
+    "id": "smith2014learningDevelopers",
+    "type": "manuscript",
+    "title": "How Learning Developers support the development of Information Literacy in HE institutions",
+    "author": [{"family": "Smith", "given": "G."}],
+    "issued": {"date-parts": [[2014]]},
+    "institution": "University of Manchester",
+    "note": "Internal document",
+    "publisher-place": "Unpublished",
+    "URL": "https://arxiv.org/abs/2410.51423v3",
+    "accessed": {"date-parts": [[2024,1,21]]}
+  },
+  {
+    "id": "mann2020coinfection",
+    "type": "manuscript",
+    "title": "Cooperative coinfection dynamics on clustered networks",
+    "author": [
+      {"family": "Mann", "given": "Peter"},
+      {"family": "Smith", "given": "V. Anne"},
+      {"family": "Mitchell", "given": "John B. O."},
+      {"family": "Dobson", "given": "Simon"}
+    ],
+    "issued": {"date-parts": [[2020]]},
+    "note": "Preprint",
+    "institution": "University of St Andrews",
+    "publisher-place": "Unpublished",
+    "URL": "https://arxiv.org/abs/2012.09457",
+    "accessed": {"date-parts": [[2023,6,13]]}
+  },
+  {
+    "id": "unitedNations2023goals",
+    "type": "webpage",
+    "title": "The 17 goals",
+    "author": [{"literal": "United Nations"}],
+    "issued": {"date-parts": [[2023]]},
+    "URL": "https://sdgs.un.org/goals",
+    "accessed": {"date-parts": [[2023,9,7]]}
+  },
+  {
+    "id": "anderton2016andertonBaronets",
+    "type": "webpage",
+    "title": "Anderton baronets",
+    "issued": {"date-parts": [[2016]]},
+    "URL": "https://en.wikipedia.org/wiki/anderton_baronets",
+    "accessed": {"date-parts": [[2018,11,13]]},
+    "genre": "Wikipedia"
+  },
+  {
+    "id": "stringer1996oxford",
+    "type": "book",
+    "title": "The Oxford companion to twentieth-century literature in English",
+    "editor": [{"family": "Stringer", "given": "Jenny"}],
+    "issued": {"date-parts": [[1996]]},
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford"
+  }
+]

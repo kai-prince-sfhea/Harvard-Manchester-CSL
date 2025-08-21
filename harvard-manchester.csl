@@ -176,6 +176,9 @@
             <if match="any" variable="author editor">
               <text macro="author-citation" suffix=", "/>
             </if>
+            <else-if match="any" variable="title">
+              <text variable="title" font-style="italic" suffix=", "/>
+            </else-if>
           </choose>
         </else>
       </choose>

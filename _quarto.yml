@@ -6,5 +6,5 @@ format:
   html: default
 
 csl: harvard-manchester.csl
-bibliography: references.bib
-link-citations: false
+bibliography: references.json
+link-citations: true
