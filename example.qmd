@@ -1,0 +1,37 @@
+---
+title: "Harvard Manchester CSL examples"
+bibliography: examples/references.json
+csl: harvard-manchester.csl
+link-citations: true
+format:
+  html: default
+  docx: default
+lang: en-GB
+nocite: "@*"
+---
+
+These references are fictional examples. Their URLs and DOI are placeholders,
+not research evidence. Replace the records with your own bibliographic facts.
+
+## Citations
+
+A narrative citation: @book-basic.
+
+A parenthetical citation: [@article-doi].
+
+A page locator: [@chapter, pp. 90-99].
+
+A quotation from a book's introduction: [@book-basic, p. iv].
+
+Sources supporting the same point: [@book-basic; @chapter; @report-corporate].
+
+An undated webpage: [@webpage-undated].
+
+A podcast: [@audio-example]. A translated book: [@translated-example].
+
+Teaching materials: [@handout-example]. Software: [@software-example].
+
+## References
+
+::: {#refs}
+:::

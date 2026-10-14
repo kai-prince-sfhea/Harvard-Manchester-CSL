@@ -1,1 +1,16 @@
+# Local rendering and editor output; the distributed style is the CSL file.
 /.quarto/
+/_site/
+/_book/
+/example.html
+/example.docx
+/example.epub
+/example.pdf
+/example.typ
+/example_files/
+/.DS_Store
+/Thumbs.db
+/.vscode/
+/.idea/
+*.log
+*.tmp

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.csl text eol=lf
+*.md text eol=lf
+*.qmd text eol=lf
+*.json text eol=lf

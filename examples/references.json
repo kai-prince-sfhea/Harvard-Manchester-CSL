@@ -1,0 +1,238 @@
+[
+  {
+    "id": "book-basic",
+    "type": "book",
+    "author": [
+      {
+        "family": "Aster",
+        "given": "Ada"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "Synthetic methods",
+    "edition": "2",
+    "publisher-place": "Oxford",
+    "publisher": "Fixture Press"
+  },
+  {
+    "id": "article-doi",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Cedar",
+        "given": "Cara"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "title": "Synthetic measurements",
+    "container-title": "Fixture Journal",
+    "volume": "12",
+    "issue": "3",
+    "page": "41-49",
+    "DOI": "10.5555/fixture",
+    "URL": "https://example.invalid/article",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "report-corporate",
+    "type": "report",
+    "author": [
+      {
+        "literal": "Example Institute"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "title": "Institutional fixture",
+    "URL": "https://example.invalid/institute",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "webpage-undated",
+    "type": "webpage",
+    "author": [
+      {
+        "literal": "Fixture Observatory"
+      }
+    ],
+    "title": "Example observations",
+    "URL": "https://example.invalid/observations",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "chapter",
+    "type": "chapter",
+    "author": [
+      {
+        "family": "Elm",
+        "given": "Eli"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "title": "Fixture chapter",
+    "editor": [
+      {
+        "family": "Fir",
+        "given": "Faye"
+      }
+    ],
+    "container-title": "Synthetic collection",
+    "publisher-place": "Leeds",
+    "publisher": "Example Press",
+    "page": "90-99"
+  },
+  {
+    "id": "audio-example",
+    "type": "broadcast",
+    "author": [
+      {
+        "literal": "Example Observatory"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          9
+        ]
+      ]
+    },
+    "title": "Learning about the night sky",
+    "medium": "Podcast",
+    "URL": "https://example.invalid/podcast",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "translated-example",
+    "type": "book",
+    "author": [
+      {
+        "family": "Noor",
+        "given": "Nadia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "title": "A translated example",
+    "translator": [
+      {
+        "family": "Ortega",
+        "given": "Omar"
+      }
+    ],
+    "publisher-place": "Leeds",
+    "publisher": "Example Press"
+  },
+  {
+    "id": "handout-example",
+    "type": "document",
+    "author": [
+      {
+        "family": "Pine",
+        "given": "Pia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "title": "Writing clear references",
+    "collection-title": "REF101: Research communication",
+    "medium": "Lecturer handout",
+    "publisher": "Example University",
+    "status": "Unpublished"
+  },
+  {
+    "id": "software-example",
+    "type": "software",
+    "author": [
+      {
+        "literal": "Example Lab"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "title": "Reference explorer",
+    "version": "2.1",
+    "medium": "Computer programme",
+    "URL": "https://example.invalid/software",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          14
+        ]
+      ]
+    }
+  }
+]
